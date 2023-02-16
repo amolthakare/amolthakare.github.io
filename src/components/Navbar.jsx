@@ -42,27 +42,27 @@ export default function Navbar() {
               display={{ base: "none", md: "flex" }}
             >
               <Text textStyle="navText">
-                <a class="nav-link.home" href="#home">HOME</a>
+                <a className="nav-link.home" href="#home">HOME</a>
               </Text>
 
               <Text textStyle="navText">
-                <a class="nav-link.about" href="#about">ABOUT</a>
+                <a className="nav-link.about" href="#about">ABOUT</a>
               </Text>
 
               <Text  textStyle="navText">
-                <a class="nav-link.projects" href="#projects">PROJECT</a>
+                <a className="nav-link.projects" href="#projects">PROJECT</a>
               </Text>
 
               <Text textStyle="navText">
-                <a class="nav-link.skills" href="#skills">SKILLS</a>
+                <a className="nav-link.skills" href="#skills">SKILLS</a>
               </Text>
 
               <Text textStyle="navText">
-                <a class="nav-link.contact" href="#contact">CONTACT</a>
+                <a className="nav-link.contact" href="#contact">CONTACT</a>
               </Text>
 
               <Text textStyle="navText">
-                <a class="nav-link.resume" href="">RESUME</a>
+                <a className="nav-link.resume" href="">RESUME</a>
               </Text>
             </HStack>
           </HStack>
@@ -128,7 +128,7 @@ export default function Navbar() {
               </Button>
             </Box>
             <Box>
-              <Image
+              <Image className="home-img" 
                 borderRadius="20"
                 src="https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg"
                 alt="amol"
