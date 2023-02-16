@@ -41,28 +41,28 @@ export default function Navbar() {
               spacing={8}
               display={{ base: "none", md: "flex" }}
             >
-              <Text className="nav-link.home" textStyle="navText">
-                <a href="#home">HOME</a>
+              <Text textStyle="navText">
+                <a class="nav-link.home" href="#home">HOME</a>
               </Text>
 
-              <Text className="nav-link.about" textStyle="navText">
-                <a href="#about">ABOUT</a>
+              <Text textStyle="navText">
+                <a class="nav-link.about" href="#about">ABOUT</a>
               </Text>
 
-              <Text className="nav-link.projects" textStyle="navText">
-                <a href="#projects">PROJECT</a>
+              <Text  textStyle="navText">
+                <a class="nav-link.projects" href="#projects">PROJECT</a>
               </Text>
 
-              <Text className="nav-link.skills" textStyle="navText">
-                <a href="#skills">SKILLS</a>
+              <Text textStyle="navText">
+                <a class="nav-link.skills" href="#skills">SKILLS</a>
               </Text>
 
-              <Text className="nav-link.contact" textStyle="navText">
-                <a href="#contact">CONTACT</a>
+              <Text textStyle="navText">
+                <a class="nav-link.contact" href="#contact">CONTACT</a>
               </Text>
 
-              <Text className="nav-link.resume" textStyle="navText">
-                <a href="">RESUME</a>
+              <Text textStyle="navText">
+                <a class="nav-link.resume" href="">RESUME</a>
               </Text>
             </HStack>
           </HStack>
@@ -110,10 +110,10 @@ export default function Navbar() {
             <Box textAlign="left">
               <Box lineHeight="55px">
                 <Text textStyle="h3">Hello, My Name is</Text>
-                <Text textStyle="h1">Amol Thakare</Text>
+                <Text textStyle="h1" id="user-detail-name">Amol Thakare</Text>
                 <Flex gap="3">
                   <Text textStyle="h3">I am a </Text>
-                  <Text textStyle="h4" className="p">
+                  <Text textStyle="h4" className="p" id="user-detail-intro">
                     Full Stack Web Developer
                   </Text>
                 </Flex>
