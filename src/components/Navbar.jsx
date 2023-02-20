@@ -14,6 +14,8 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
 import aboutMe from "../Assets/AboutMe.png";
+import clothingo from "../Assets/clothingo.png";
+import megamart from "../Assets/megamart.png";
 
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -150,7 +152,7 @@ export default function Navbar() {
             </Box>
             <Box>
               <Text textStyle="about">About Me</Text>
-              <Text textStyle="p1">
+              <Text textStyle="p1" id="user-detail-intro">
                 Self-motivated developer and Creative person who is interested
                 in building user-friendly products. Extremely motivated to
                 constantly develop technical skills and grow professionally. and
@@ -163,7 +165,128 @@ export default function Navbar() {
 
         {/* project */}
 
-        <Container id="projects" mt="50" maxW="6xl"></Container>
+        <Container id="projects" mt="50" maxW="6xl">
+          <Text textStyle="heading">MY PROJECTS</Text>
+          <SimpleGrid
+            columns={{ sm: 1, md: 1, lg: 2, xl: 2 }}
+            spacing="25px"
+            p={[6, 4, 6, 8]}
+          >
+            <Box textStyle="projectBox">
+              <Box>
+                <Image
+                  src="https://raw.githubusercontent.com/Arfeen98/MamaEarthclone/main/Images/MamaEarth.png"
+                  alt=""
+                  borderRadius="10"
+                  border="1px solid rgb(206,206,206)"
+                />
+              </Box>
+              <Text textStyle="h2">Mamaearth Clone</Text>
+              <Text textStyle="p">
+                  Mamaearth is one of the most trustworthy brands in India. It offers the best-in-class skincare products to help you discover the essence of beauty with the Goodness of Nature.
+              </Text>
+              <Flex gap="2" mt="3">
+              <Text textStyle="techStack">Tech Stacks :</Text> 
+              <Text textStyle="p2">HTML, CSS, JavaScript</Text>
+              </Flex>
+              <Flex justifyContent="space-evenly" mt="5">
+                <Button variant="outline" colorScheme="blue">
+                  <a href="calm-sawine-27b8ed.netlify.app/">
+                    See Live
+                    <span>
+                      <i className="fa-solid fa-eye" />
+                    </span>
+                  </a>
+                </Button>
+                <Button variant="outline" colorScheme="blue">
+                  <a href="https://github.com/Arfeen98/MamaEarthclone">
+                    View Code
+                    <span>
+                      <i className="fa-brands fa-github" />
+                    </span>
+                  </a>
+                </Button>
+              </Flex>
+            </Box>
+
+            <Box textStyle="projectBox">
+              <Box>
+                <Image
+                  src={megamart}
+                  alt=""
+                  borderRadius="10"
+                  border="1px solid rgb(206,206,206)"
+                />
+              </Box>
+              <Text textStyle="h2">CraftsVilla Clone</Text>
+              <Text textStyle="p">
+                A web application where daily needs products are
+                available for purchase and there are different functionalties
+                available, here you can Filter all the products and this is a my
+                first individual project.
+              </Text>
+              <Flex gap="2" mt="3">
+              <Text textStyle="techStack">Tech Stacks :</Text> 
+              <Text textStyle="p2">HTML, CSS, JavaScript, NodeJs</Text>
+              </Flex>
+              <Flex justifyContent="space-evenly" mt="5">
+                <Button variant="outline" colorScheme="blue">
+                  <a href="https://splendorous-capybara-aeb198.netlify.app">
+                    See Live
+                    <span>
+                      <i className="fa-solid fa-eye" />
+                    </span>
+                  </a>
+                </Button>
+                <Button variant="outline" colorScheme="blue">
+                  <a href="https://github.com/amolthakare/crooked-milk-1565">
+                    View Code
+                    <span>
+                      <i className="fa-brands fa-github" />
+                    </span>
+                  </a>
+                </Button>
+              </Flex>
+            </Box>
+
+            <Box textStyle="projectBox">
+              <Box>
+                <Image
+                  src={clothingo}
+                  alt=""
+                  borderRadius="10"
+                  border="1px solid rgb(206,206,206)"
+                />
+              </Box>
+              <Text textStyle="h2">Clothingo Clone</Text>
+              <Text textStyle="p">
+              THE FINEST EDIT IN LUXURY FASHION Clothingo is the finest edit in luxury fashion for women, men and kids. We have over 200 of the best international designers
+              </Text>
+              <Flex gap="2" mt="3">
+              <Text textStyle="techStack">Tech Stacks :</Text> 
+              <Text textStyle="p2">HTML, CSS, JavaScript</Text>
+              </Flex>
+              <Flex justifyContent="space-evenly" mt="5">
+                <Button variant="outline" colorScheme="blue">
+                  <a href="https://luxury-vacherin-56d222.netlify.app/">
+                    See Live
+                    <span>
+                      <i className="fa-solid fa-eye" />
+                    </span>
+                  </a>
+                </Button>
+                <Button variant="outline" colorScheme="blue">
+                  <a href="https://github.com/hrithikvishwakarma001/complex-oranges-7381">
+                    View Code
+                    <span>
+                      <i className="fa-brands fa-github" />
+                    </span>
+                  </a>
+                </Button>
+              </Flex>
+            </Box>
+          </SimpleGrid>
+        </Container>
 
         {/* skills */}
 
