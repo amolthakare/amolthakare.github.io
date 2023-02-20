@@ -16,6 +16,7 @@ import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
 import aboutMe from "../Assets/AboutMe.png";
 import clothingo from "../Assets/clothingo.png";
 import megamart from "../Assets/megamart.png";
+import tralive from "../Assets/tralive.png";
 
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -252,6 +253,42 @@ export default function Navbar() {
             <Box textStyle="projectBox">
               <Box>
                 <Image
+                  src={tralive}
+                  alt=""
+                  borderRadius="10"
+                  border="1px solid rgb(206,206,206)"
+                />
+              </Box>
+              <Text textStyle="h2">Tripadvisor Clone</Text>
+              <Text textStyle="p">
+              Tripadvisor, is the travel platform,helps travelers to make every trip their best trip.Whether planning or on a trip, travelers turn to Tripadvisor to compare low prices on hotels, flights and cruises, book popular tours and attractions, as well as reserve tables at great restaurants.
+              </Text>
+              <Flex gap="2" mt="3">
+              <Text textStyle="techStack">Tech Stacks :</Text> 
+              <Text textStyle="p2">HTML, CSS, JavaScript</Text>
+              </Flex>
+              <Flex justifyContent="space-evenly" mt="5">
+                <Button variant="outline" colorScheme="blue">
+                  <a href="https://nimble-profiterole-aaa205.netlify.app">
+                    See Live
+                    <span>
+                      <i className="fa-solid fa-eye" />
+                    </span>
+                  </a>
+                </Button>
+                <Button variant="outline" colorScheme="blue">
+                  <a href="https://github.com/amolthakare/-thankful-distribution-751">
+                    View Code
+                    <span>
+                      <i className="fa-brands fa-github" />
+                    </span>
+                  </a>
+                </Button>
+              </Flex>
+            </Box>
+            <Box textStyle="projectBox">
+              <Box>
+                <Image
                   src={clothingo}
                   alt=""
                   borderRadius="10"
@@ -290,7 +327,146 @@ export default function Navbar() {
 
         {/* skills */}
 
-        <Container id="skills" maxW="6xl" mt="80px"></Container>
+        <Container id="skills" maxW="6xl" mt="80px">
+          <Text textStyle="heading">MY TECHNICAL SKILLS</Text>
+
+          <SimpleGrid columns={[3, null, 6]} spacing="30px" mt="40px">
+            <Box textStyle="skillBox">
+              <Image
+                textStyle="skillLogo"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                alt=""
+              />
+              <Text textStyle="skillText">HTML</Text>
+            </Box>
+
+            <Box textStyle="skillBox">
+              <Image
+                textStyle="skillLogo"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                alt=""
+              />
+              <Text textStyle="skillText">CSS</Text>
+            </Box>
+
+            <Box textStyle="skillBox">
+              <Image
+                textStyle="skillLogo"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                alt=""
+              />
+              <Text textStyle="skillText">JavaScript</Text>
+            </Box>
+
+            <Box textStyle="skillBox">
+              <Image
+                textStyle="skillLogo"
+                src="https://iconape.com/wp-content/files/ec/371378/svg/371378.svg"
+                alt=""
+              />
+              <Text textStyle="skillText">React</Text>
+            </Box>
+
+            <Box textStyle="skillBox">
+              <Image
+                textStyle="skillLogo"
+                src="https://cdn.iconscout.com/icon/free/png-256/nodejs-2-226035.png?f=avif&w=128"
+                alt=""
+              />
+              <Text textStyle="skillText">Node JS</Text>
+            </Box>
+
+            <Box textStyle="skillBox">
+              <Image
+                textStyle="skillLogo"
+                src="https://camo.githubusercontent.com/0566752248b4b31b2c4bdc583404e41066bd0b6726f310b73e1140deefcc31ac/68747470733a2f2f692e636c6f756475702e636f6d2f7a6659366c4c376546612d3330303078333030302e706e67"
+                alt=""
+              />
+              <Text textStyle="skillText">Express</Text>
+            </Box>
+
+            <Box textStyle="skillBox">
+              <Image
+                textStyle="skillLogo"
+                src="https://cms-assets.tutsplus.com/uploads/users/34/posts/29527/preview_image/mongoose.jpg"
+                alt=""
+              />
+              <Text textStyle="skillText">Mongoose</Text>
+            </Box>
+
+            <Box textStyle="skillBox">
+              <Image
+                textStyle="skillLogo"
+                src="https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress"
+                alt=""
+              />
+              <Text textStyle="skillText">Mongo DB</Text>
+            </Box>
+
+            {/* <Box textStyle="skillBox">
+              <Image
+                textStyle="skillLogo"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
+                alt=""
+              />
+              <Text textStyle="skillText">Redux</Text>
+            </Box> */}
+
+            <Box textStyle="skillBox">
+              <Image
+                textStyle="skillLogo"
+                src="https://iconape.com/wp-content/png_logo_vector/git-icon.png"
+                alt=""
+              />
+              <Text textStyle="skillText">Git</Text>
+            </Box>
+
+            <Box textStyle="skillBox">
+              <Image
+                textStyle="skillLogo"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlDcM4VsepX9Xp1r4a4SqDBLMQo1xNQ4ZvzCBi7mCHYnFKCswg8lCXDBQkW3JrPkMNlTE&usqp=CAU"
+                alt=""
+              />
+              <Text textStyle="skillText">Chakra UI</Text>
+            </Box>
+
+            <Box textStyle="skillBox">
+              <Image
+                textStyle="skillLogo"
+                src="https://iconape.com/wp-content/png_logo_vector/bootstrap-3.png"
+                alt=""
+              />
+              <Text textStyle="skillText">BootStrap</Text>
+            </Box>
+
+            <Box textStyle="skillBox">
+              <Image
+                textStyle="skillLogo"
+                src="https://iconape.com/wp-content/files/gh/371229/svg/371229.svg"
+                alt=""
+              />
+              <Text textStyle="skillText">NPM</Text>
+            </Box>
+
+            {/* <Box textStyle="skillBox">
+              <Image
+                textStyle="skillLogo"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+                alt=""
+              />
+              <Text textStyle="skillText">TypeScript</Text>
+            </Box> */}
+
+            {/* <Box textStyle="skillBox">
+              <Image
+                textStyle="skillLogo"
+                src="https://iconape.com/wp-content/files/gj/370774/svg/370774.svg"
+                alt=""
+              />
+              <Text textStyle="skillText">Cypress</Text>
+            </Box> */}
+          </SimpleGrid>
+        </Container>
 
         {/* contact */}
 
