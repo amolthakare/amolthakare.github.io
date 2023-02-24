@@ -45,27 +45,27 @@ export default function Navbar() {
               display={{ base: "none", md: "flex" }}
             >
               <Text textStyle="navText">
-                <a className="nav-link.home" href="#home">HOME</a>
+                <a className="menu-btn nav-link home" href="#home">HOME</a>
               </Text>
 
               <Text textStyle="navText">
-                <a className="nav-link.about" href="#about">ABOUT</a>
+                <a className="menu-btn nav-link about" href="#about">ABOUT</a>
               </Text>
 
               <Text  textStyle="navText">
-                <a className="nav-link.projects" href="#projects">PROJECT</a>
+                <a className="menu-btn nav-link projects" href="#projects">PROJECT</a>
               </Text>
 
               <Text textStyle="navText">
-                <a className="nav-link.skills" href="#skills">SKILLS</a>
+                <a className="menu-btn nav-link skills" href="#skills">SKILLS</a>
               </Text>
 
               <Text textStyle="navText">
-                <a className="nav-link.contact" href="#contact">CONTACT</a>
+                <a className="menu-btn nav-link contact" href="#contact">CONTACT</a>
               </Text>
 
               <Text textStyle="navText">
-                <a className="nav-link.resume" href="">RESUME</a>
+                <a className="menu-btn nav-link resume" href="">RESUME</a>
               </Text>
             </HStack>
           </HStack>
