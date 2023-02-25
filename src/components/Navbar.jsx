@@ -17,6 +17,12 @@ import aboutMe from "../Assets/AboutMe.png";
 import clothingo from "../Assets/clothingo.png";
 import megamart from "../Assets/megamart.png";
 import tralive from "../Assets/tralive.png";
+import express from "../Assets/express.png";
+import socket from "../Assets/socket.png";
+import aws from "../Assets/aws.png";
+import mongodb from "../Assets/mongodb.png";
+import algo from "../Assets/algorithm.png";
+import netlify from "../Assets/netlify.png";
 
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -173,7 +179,7 @@ export default function Navbar() {
             spacing="25px"
             p={[6, 4, 6, 8]}
           >
-            <Box textStyle="projectBox">
+            <Box className="card project-card" textStyle="projectBox">
               <Box>
                 <Image
                   src="https://raw.githubusercontent.com/Arfeen98/MamaEarthclone/main/Images/MamaEarth.png"
@@ -182,17 +188,17 @@ export default function Navbar() {
                   border="1px solid rgb(206,206,206)"
                 />
               </Box>
-              <Text textStyle="h2">Mamaearth Clone</Text>
-              <Text textStyle="p">
+              <Text className="text project-title" textStyle="h2">Mamaearth Clone</Text>
+              <Text className="project-description" textStyle="p">
                   Mamaearth is one of the most trustworthy brands in India. It offers the best-in-class skincare products to help you discover the essence of beauty with the Goodness of Nature.
               </Text>
               <Flex gap="2" mt="3">
               <Text textStyle="techStack">Tech Stacks :</Text> 
-              <Text textStyle="p2">HTML, CSS, JavaScript</Text>
+              <Text className="techStack project-tech-stack" textStyle="p2">HTML, CSS, JavaScript</Text>
               </Flex>
               <Flex justifyContent="space-evenly" mt="5">
                 <Button variant="outline" colorScheme="blue">
-                  <a href="calm-sawine-27b8ed.netlify.app/">
+                  <a className="project-deployed-link" href="calm-sawine-27b8ed.netlify.app/">
                     See Live
                     <span>
                       <i className="fa-solid fa-eye" />
@@ -200,7 +206,7 @@ export default function Navbar() {
                   </a>
                 </Button>
                 <Button variant="outline" colorScheme="blue">
-                  <a href="https://github.com/Arfeen98/MamaEarthclone">
+                  <a className="project-github-link" href="https://github.com/Arfeen98/MamaEarthclone">
                     View Code
                     <span>
                       <i className="fa-brands fa-github" />
@@ -210,7 +216,7 @@ export default function Navbar() {
               </Flex>
             </Box>
 
-            <Box textStyle="projectBox">
+            <Box className="card project-card" textStyle="projectBox">
               <Box>
                 <Image
                   src={megamart}
@@ -219,8 +225,8 @@ export default function Navbar() {
                   border="1px solid rgb(206,206,206)"
                 />
               </Box>
-              <Text textStyle="h2">CraftsVilla Clone</Text>
-              <Text textStyle="p">
+              <Text className="text project-title" textStyle="h2">CraftsVilla Clone</Text>
+              <Text className="project-description" textStyle="p">
                 A web application where daily needs products are
                 available for purchase and there are different functionalties
                 available, here you can Filter all the products and this is a my
@@ -228,11 +234,11 @@ export default function Navbar() {
               </Text>
               <Flex gap="2" mt="3">
               <Text textStyle="techStack">Tech Stacks :</Text> 
-              <Text textStyle="p2">HTML, CSS, JavaScript, NodeJs</Text>
+              <Text className="techStack project-tech-stack" textStyle="p2">HTML, CSS, JavaScript, NodeJs</Text>
               </Flex>
               <Flex justifyContent="space-evenly" mt="5">
                 <Button variant="outline" colorScheme="blue">
-                  <a href="https://splendorous-capybara-aeb198.netlify.app">
+                  <a className="project-deployed-link" href="https://splendorous-capybara-aeb198.netlify.app">
                     See Live
                     <span>
                       <i className="fa-solid fa-eye" />
@@ -240,7 +246,7 @@ export default function Navbar() {
                   </a>
                 </Button>
                 <Button variant="outline" colorScheme="blue">
-                  <a href="https://github.com/amolthakare/crooked-milk-1565">
+                  <a className="project-github-link" href="https://github.com/amolthakare/crooked-milk-1565">
                     View Code
                     <span>
                       <i className="fa-brands fa-github" />
@@ -250,7 +256,7 @@ export default function Navbar() {
               </Flex>
             </Box>
 
-            <Box textStyle="projectBox">
+            <Box className="card project-card" textStyle="projectBox">
               <Box>
                 <Image
                   src={tralive}
@@ -259,17 +265,17 @@ export default function Navbar() {
                   border="1px solid rgb(206,206,206)"
                 />
               </Box>
-              <Text textStyle="h2">Tripadvisor Clone</Text>
-              <Text textStyle="p">
+              <Text className="text project-title" textStyle="h2">Tripadvisor Clone</Text>
+              <Text className="project-description" textStyle="p">
               Tripadvisor, is the travel platform,helps travelers to make every trip their best trip.Whether planning or on a trip, travelers turn to Tripadvisor to compare low prices on hotels, flights and cruises, book popular tours and attractions, as well as reserve tables at great restaurants.
               </Text>
               <Flex gap="2" mt="3">
               <Text textStyle="techStack">Tech Stacks :</Text> 
-              <Text textStyle="p2">HTML, CSS, JavaScript</Text>
+              <Text className="techStack project-tech-stack" textStyle="p2">HTML, CSS, JavaScript</Text>
               </Flex>
               <Flex justifyContent="space-evenly" mt="5">
                 <Button variant="outline" colorScheme="blue">
-                  <a href="https://nimble-profiterole-aaa205.netlify.app">
+                  <a className="project-deployed-link" href="https://nimble-profiterole-aaa205.netlify.app">
                     See Live
                     <span>
                       <i className="fa-solid fa-eye" />
@@ -277,7 +283,7 @@ export default function Navbar() {
                   </a>
                 </Button>
                 <Button variant="outline" colorScheme="blue">
-                  <a href="https://github.com/amolthakare/-thankful-distribution-751">
+                  <a className="project-github-link" href="https://github.com/amolthakare/-thankful-distribution-751">
                     View Code
                     <span>
                       <i className="fa-brands fa-github" />
@@ -286,7 +292,7 @@ export default function Navbar() {
                 </Button>
               </Flex>
             </Box>
-            <Box textStyle="projectBox">
+            <Box className="card project-card" textStyle="projectBox">
               <Box>
                 <Image
                   src={clothingo}
@@ -295,17 +301,17 @@ export default function Navbar() {
                   border="1px solid rgb(206,206,206)"
                 />
               </Box>
-              <Text textStyle="h2">Clothingo Clone</Text>
-              <Text textStyle="p">
+              <Text className="text project-title" textStyle="h2">Clothingo Clone</Text>
+              <Text className="project-description" textStyle="p">
               THE FINEST EDIT IN LUXURY FASHION Clothingo is the finest edit in luxury fashion for women, men and kids. We have over 200 of the best international designers
               </Text>
               <Flex gap="2" mt="3">
               <Text textStyle="techStack">Tech Stacks :</Text> 
-              <Text textStyle="p2">HTML, CSS, JavaScript</Text>
+              <Text className="techStack project-tech-stack" textStyle="p2">HTML, CSS, JavaScript</Text>
               </Flex>
               <Flex justifyContent="space-evenly" mt="5">
                 <Button variant="outline" colorScheme="blue">
-                  <a href="https://luxury-vacherin-56d222.netlify.app/">
+                  <a className="project-deployed-link" href="https://luxury-vacherin-56d222.netlify.app/">
                     See Live
                     <span>
                       <i className="fa-solid fa-eye" />
@@ -313,7 +319,7 @@ export default function Navbar() {
                   </a>
                 </Button>
                 <Button variant="outline" colorScheme="blue">
-                  <a href="https://github.com/hrithikvishwakarma001/complex-oranges-7381">
+                  <a className="project-github-link" href="https://github.com/hrithikvishwakarma001/complex-oranges-7381">
                     View Code
                     <span>
                       <i className="fa-brands fa-github" />
@@ -333,74 +339,82 @@ export default function Navbar() {
           <SimpleGrid columns={[3, null, 6]} spacing="30px" mt="40px">
             <Box textStyle="skillBox">
               <Image
+                className="skills-card-img"
                 textStyle="skillLogo"
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
                 alt=""
               />
-              <Text textStyle="skillText">HTML</Text>
+              <Text className="skills-card-name" textStyle="skillText">HTML</Text>
             </Box>
 
             <Box textStyle="skillBox">
               <Image
+                className="skills-card-img"
                 textStyle="skillLogo"
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
                 alt=""
               />
-              <Text textStyle="skillText">CSS</Text>
+              <Text className="skills-card-name" textStyle="skillText">CSS</Text>
             </Box>
 
             <Box textStyle="skillBox">
               <Image
+                className="skills-card-img"
                 textStyle="skillLogo"
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
                 alt=""
               />
-              <Text textStyle="skillText">JavaScript</Text>
+              <Text className="skills-card-name" textStyle="skillText">JavaScript</Text>
             </Box>
 
             <Box textStyle="skillBox">
               <Image
+                className="skills-card-img"
                 textStyle="skillLogo"
                 src="https://iconape.com/wp-content/files/ec/371378/svg/371378.svg"
                 alt=""
               />
-              <Text textStyle="skillText">React</Text>
+              <Text className="skills-card-name" textStyle="skillText">React</Text>
             </Box>
 
             <Box textStyle="skillBox">
               <Image
+                className="skills-card-img"
                 textStyle="skillLogo"
                 src="https://cdn.iconscout.com/icon/free/png-256/nodejs-2-226035.png?f=avif&w=128"
                 alt=""
               />
-              <Text textStyle="skillText">Node JS</Text>
+              <Text className="skills-card-name" textStyle="skillText">NodeJS</Text>
             </Box>
 
             <Box textStyle="skillBox">
               <Image
+                className="skills-card-img"
                 textStyle="skillLogo"
-                src="https://camo.githubusercontent.com/0566752248b4b31b2c4bdc583404e41066bd0b6726f310b73e1140deefcc31ac/68747470733a2f2f692e636c6f756475702e636f6d2f7a6659366c4c376546612d3330303078333030302e706e67"
+                src={express}
                 alt=""
               />
-              <Text textStyle="skillText">Express</Text>
+              <Text className="skills-card-name" textStyle="skillText">Express</Text>
             </Box>
 
             <Box textStyle="skillBox">
               <Image
+                className="skills-card-img"
                 textStyle="skillLogo"
                 src="https://cms-assets.tutsplus.com/uploads/users/34/posts/29527/preview_image/mongoose.jpg"
                 alt=""
               />
-              <Text textStyle="skillText">Mongoose</Text>
+              <Text className="skills-card-name" textStyle="skillText">Mongoose</Text>
             </Box>
 
             <Box textStyle="skillBox">
               <Image
+                className="skills-card-img"
                 textStyle="skillLogo"
-                src="https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress"
+                src={mongodb}
                 alt=""
               />
-              <Text textStyle="skillText">Mongo DB</Text>
+              <Text className="skills-card-name" textStyle="skillText">Mongo DB</Text>
             </Box>
 
             {/* <Box textStyle="skillBox">
@@ -414,57 +428,84 @@ export default function Navbar() {
 
             <Box textStyle="skillBox">
               <Image
+                className="skills-card-img"
                 textStyle="skillLogo"
                 src="https://iconape.com/wp-content/png_logo_vector/git-icon.png"
                 alt=""
               />
-              <Text textStyle="skillText">Git</Text>
+              <Text className="skills-card-name" textStyle="skillText">Git</Text>
             </Box>
 
             <Box textStyle="skillBox">
               <Image
+                className="skills-card-img"
                 textStyle="skillLogo"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlDcM4VsepX9Xp1r4a4SqDBLMQo1xNQ4ZvzCBi7mCHYnFKCswg8lCXDBQkW3JrPkMNlTE&usqp=CAU"
                 alt=""
               />
-              <Text textStyle="skillText">Chakra UI</Text>
+              <Text className="skills-card-name" textStyle="skillText">Chakra UI</Text>
             </Box>
 
             <Box textStyle="skillBox">
               <Image
+                className="skills-card-img"
                 textStyle="skillLogo"
                 src="https://iconape.com/wp-content/png_logo_vector/bootstrap-3.png"
                 alt=""
               />
-              <Text textStyle="skillText">BootStrap</Text>
+              <Text className="skills-card-name" textStyle="skillText">BootStrap</Text>
             </Box>
 
             <Box textStyle="skillBox">
               <Image
+                className="skills-card-img"
                 textStyle="skillLogo"
                 src="https://iconape.com/wp-content/files/gh/371229/svg/371229.svg"
                 alt=""
               />
-              <Text textStyle="skillText">NPM</Text>
+              <Text className="skills-card-name" textStyle="skillText">NPM</Text>
             </Box>
 
-            {/* <Box textStyle="skillBox">
+            <Box textStyle="skillBox">
               <Image
+                className="skills-card-img"
                 textStyle="skillLogo"
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+                src={aws}
                 alt=""
               />
-              <Text textStyle="skillText">TypeScript</Text>
-            </Box> */}
+              <Text className="skills-card-name" textStyle="skillText">AWS</Text>
+            </Box>
 
-            {/* <Box textStyle="skillBox">
+            <Box textStyle="skillBox">
               <Image
+                className="skills-card-img"
                 textStyle="skillLogo"
-                src="https://iconape.com/wp-content/files/gj/370774/svg/370774.svg"
+                src={socket}
                 alt=""
               />
-              <Text textStyle="skillText">Cypress</Text>
-            </Box> */}
+              <Text className="skills-card-name" textStyle="skillText">Socket.io</Text>
+            </Box>
+
+            <Box textStyle="skillBox">
+              <Image
+                className="skills-card-img"
+                textStyle="skillLogo"
+                src={netlify}
+                alt=""
+              />
+              <Text className="skills-card-name" textStyle="skillText">Netlify</Text>
+            </Box>
+
+            <Box textStyle="skillBox">
+              <Image
+                className="skills-card-img"
+                textStyle="skillLogo"
+                src={algo}
+                alt=""
+              />
+              <Text className="skills-card-name" textStyle="skillText">Algorithm</Text>
+            </Box>
+
           </SimpleGrid>
         </Container>
 
