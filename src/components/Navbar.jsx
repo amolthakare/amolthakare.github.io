@@ -97,7 +97,7 @@ export default function Navbar() {
               </Text>
 
               <Text textStyle="navText">
-                <a className="menu-btn nav-link resume" href="https://drive.google.com/file/d/16uN7Nbbr2GEcsW7W6a4KPc5s32Q5oiO4/view?usp=share_link">RESUME</a>
+                <a className="menu-btn nav-link resume" id="resume-button-1" href={resume} download>RESUME</a>
               </Text>
             </HStack>
           </HStack>
@@ -126,7 +126,7 @@ export default function Navbar() {
               <a href="#contact">CONTACT</a>
             </Text>
             <Text>
-              <a href="https://drive.google.com/file/d/16uN7Nbbr2GEcsW7W6a4KPc5s32Q5oiO4/view?usp=share_link">RESUME</a>
+              <a className="menu-btn nav-link resume" id="resume-button-1" href={resume} download>RESUME</a>
             </Text>
           </Box>
         ) : null}
@@ -154,7 +154,7 @@ export default function Navbar() {
                 </Flex>
               </Box>
               <Button mt="3" mb="10" variant="solid" colorScheme="blue">
-                <a href={resume} download>
+                <a id="resume-button-2" href={resume} download>
                   Resume
                   <span>
                     <i className="fa-solid fa-file-arrow-down" />
@@ -362,7 +362,7 @@ export default function Navbar() {
         <Container id="skills" maxW="6xl" mt="80px">
           <Text textStyle="heading">MY TECHNICAL SKILLS</Text>
 
-          <SimpleGrid columns={[3, null, 6]} spacing="30px" mt="40px">
+          <SimpleGrid className="skills-card" columns={[3, null, 6]} spacing="30px" mt="40px">
             <Box textStyle="skillBox">
               <Image
                 className="skills-card-img"
@@ -537,7 +537,7 @@ export default function Navbar() {
 
         {/* contact */}
 
-        <Container id="contact" maxW="6xl" mt="100px">
+        <Container className="contact" id="contact" maxW="6xl" mt="100px">
           <Text mb="-10" textStyle="heading">
             GET IN TOUCH
           </Text>
@@ -554,8 +554,8 @@ export default function Navbar() {
             <Box p="35px">
               <Flex w="100%" gap="5" mb="5">
                 <Button fontSize="15px" variant="solid" colorScheme="red">
-                  <a id="contact-email" href="https://mail.google.com/mail/#inbox">
-                    Gmail
+                  <a href="https://mail.google.com/mail/#inbox" id="contact-email" >
+                    amolthakare631@gmail.com
                     <span>
                       <i className="fa-solid fa-envelope" />
                     </span>
@@ -563,7 +563,7 @@ export default function Navbar() {
                 </Button>
 
                 <Button fontSize="15px" variant="solid" colorScheme="linkedin">
-                  <a id="contact-github" href="https://www.linkedin.com/in/amol-thakare-90469b237/">
+                  <a href="https://www.linkedin.com/in/amol-thakare-90469b237/" id="contact-linkedin">
                     Linkedin
                     <span>
                       <i className="fa-brands fa-linkedin" />
@@ -572,7 +572,7 @@ export default function Navbar() {
                 </Button>
 
                 <Button fontSize="15px" variant="solid" colorScheme="purple">
-                  <a id="contact-github" href="https://github.com/amolthakare">
+                  <a href="https://github.com/amolthakare" id="contact-github">
                     GitHub
                     <span>
                       <i className="fa-brands fa-github" />
