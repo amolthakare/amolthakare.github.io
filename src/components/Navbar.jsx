@@ -11,6 +11,8 @@ import {
   Container,
   SimpleGrid,
   Image,
+  Input,
+  Textarea,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
 import aboutMe from "../Assets/AboutMe.png";
@@ -23,10 +25,34 @@ import aws from "../Assets/aws.png";
 import mongodb from "../Assets/mongodb.png";
 import algo from "../Assets/algorithm.png";
 import netlify from "../Assets/netlify.png";
+import contactMe from "../Assets/ContactMe.png";
+import amol_img from "../Assets/amol_img.JPG";
+import resume from "../Assets/Amol_Thakare_resume.pdf";
+// import emailjs from "emailjs-com";
 
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
+
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+
+  //   emailjs
+  //     .sendForm(
+  //       "service_kbwuxdb",
+  //       "template_hjdeprb",
+  //       e.target,
+  //       "9xwITvx6HuKnbpRHu"
+  //     )
+  //     .then((res) => {
+  //       console.log(res);
+  //     })
+  //     .catch((err) => {
+  //       console.log(err);
+  //     });
+  //   e.target.reset();
+  // };
+
 
   return (
     <>
@@ -71,7 +97,7 @@ export default function Navbar() {
               </Text>
 
               <Text textStyle="navText">
-                <a className="menu-btn nav-link resume" href="">RESUME</a>
+                <a className="menu-btn nav-link resume" href="https://drive.google.com/file/d/16uN7Nbbr2GEcsW7W6a4KPc5s32Q5oiO4/view?usp=share_link">RESUME</a>
               </Text>
             </HStack>
           </HStack>
@@ -100,7 +126,7 @@ export default function Navbar() {
               <a href="#contact">CONTACT</a>
             </Text>
             <Text>
-              <a href="">RESUME</a>
+              <a href="https://drive.google.com/file/d/16uN7Nbbr2GEcsW7W6a4KPc5s32Q5oiO4/view?usp=share_link">RESUME</a>
             </Text>
           </Box>
         ) : null}
@@ -128,7 +154,7 @@ export default function Navbar() {
                 </Flex>
               </Box>
               <Button mt="3" mb="10" variant="solid" colorScheme="blue">
-                <a href="" download>
+                <a href={resume} download>
                   Resume
                   <span>
                     <i className="fa-solid fa-file-arrow-down" />
@@ -139,7 +165,7 @@ export default function Navbar() {
             <Box>
               <Image className="home-img" 
                 borderRadius="20"
-                src="https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg"
+                src={amol_img}
                 alt="amol"
               />
             </Box>
@@ -511,7 +537,97 @@ export default function Navbar() {
 
         {/* contact */}
 
-        <Container id="contact" maxW="6xl" mt="100px"></Container>
+        <Container id="contact" maxW="6xl" mt="100px">
+          <Text mb="-10" textStyle="heading">
+            GET IN TOUCH
+          </Text>
+          <SimpleGrid
+            alignItems={"center"}
+            columns={{ sm: 1, md: 1, lg: 2, xl: 2 }}
+            spacing="20px"
+            p={[2, 4, 6, 8]}
+          >
+            <Box>
+              <Image src={contactMe} alt="amol" />
+            </Box>
+
+            <Box p="35px">
+              <Flex w="100%" gap="5" mb="5">
+                <Button fontSize="15px" variant="solid" colorScheme="red">
+                  <a id="contact-email" href="https://mail.google.com/mail/#inbox">
+                    Gmail
+                    <span>
+                      <i className="fa-solid fa-envelope" />
+                    </span>
+                  </a>
+                </Button>
+
+                <Button fontSize="15px" variant="solid" colorScheme="linkedin">
+                  <a id="contact-github" href="https://www.linkedin.com/in/amol-thakare-90469b237/">
+                    Linkedin
+                    <span>
+                      <i className="fa-brands fa-linkedin" />
+                    </span>
+                  </a>
+                </Button>
+
+                <Button fontSize="15px" variant="solid" colorScheme="purple">
+                  <a id="contact-github" href="https://github.com/amolthakare">
+                    GitHub
+                    <span>
+                      <i className="fa-brands fa-github" />
+                    </span>
+                  </a>
+                </Button>
+              </Flex>
+
+              <Box>
+                <form>
+                  <Box>
+                    <Input
+                      tupe="text"
+                      name="name"
+                      placeholder="Enter Name"
+                      required
+                    />
+                  </Box>
+                  <br />
+                  <Box>
+                    <Input
+                      tupe="email"
+                      name="email"
+                      placeholder="Enter Email"
+                      required
+                    />
+                  </Box>
+                  <br />
+                  <Box>
+                    <Input
+                      tupe="number"
+                      name="mobile"
+                      placeholder="Enter Mobile"
+                      required
+                    />
+                  </Box>
+                  <br />
+                  <Box>
+                    <Textarea
+                      name="message"
+                      placeholder="Add Your Massage"
+                      required
+                    />
+                  </Box>
+                  <br />
+                  <Input
+                    textStyle="sendBtn"
+                    type="submit"
+                    value="Send Message"
+                  />
+                </form>
+              </Box>
+            </Box>
+          </SimpleGrid>
+        </Container>
       </Container>
     </>
   );

@@ -15,7 +15,7 @@ const Footer = () => {
         </Box>
         <Box>
           <Text>
-            <a href="tel:+91-9657654460">
+            <a id="contact-phone" href="tel:+91-9657654460">
               <span>
                 <i className="fa-solid fa-phone" />
               </span>{" "}
