@@ -535,6 +535,9 @@ export default function Navbar() {
           </SimpleGrid>
         </Container>
 
+        {/* Github */}
+        
+
         {/* contact */}
 
         <Container className="contact" id="contact" maxW="6xl" mt="100px">
