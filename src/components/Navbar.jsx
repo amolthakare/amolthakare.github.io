@@ -207,7 +207,7 @@ export default function Navbar() {
             p={[6, 4, 6, 8]}
           >
             <Box className="card project-card" textStyle="projectBox">
-            <img></img>
+            <img src=""></img>
               <Box>
                 <Image
                   src="https://raw.githubusercontent.com/Arfeen98/MamaEarthclone/main/Images/MamaEarth.png"
@@ -245,7 +245,7 @@ export default function Navbar() {
             </Box>
 
             <Box className="card project-card" textStyle="projectBox">
-            <img></img>
+            <img src=""></img>
               <Box>
                 <Image
                   src={megamart}
@@ -286,7 +286,7 @@ export default function Navbar() {
             </Box>
 
             <Box className="card project-card" textStyle="projectBox">
-            <img></img>
+            <img src=""></img>
               <Box>
                 <Image
                   src={tralive}
@@ -323,7 +323,7 @@ export default function Navbar() {
               </Flex>
             </Box>
             <Box className="card project-card" textStyle="projectBox">
-            <img></img>
+            <img src=""></img>
               <Box>
                 <Image
                   src={clothingo}
@@ -524,7 +524,7 @@ export default function Navbar() {
                 src={netlify}
                 alt=""
               />
-              <Text className="skills-card-name" textStyle="skillText">Netlify</Text>
+              <Text className="skills-card-name" textStyle="skillText">My SQL</Text>
             </Box>
 
             <Box textStyle="skillBox">
@@ -534,7 +534,7 @@ export default function Navbar() {
                 src={algo}
                 alt=""
               />
-              <Text className="skills-card-name" textStyle="skillText">Algorithm</Text>
+              <Text className="skills-card-name" textStyle="skillText">DSA</Text>
             </Box>
 
           </SimpleGrid>
