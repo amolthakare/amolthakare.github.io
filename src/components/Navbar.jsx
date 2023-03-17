@@ -201,6 +201,7 @@ export default function Navbar() {
         <Container id="projects" mt="50" maxW="6xl">
           <Text textStyle="heading">MY PROJECTS</Text>
           <SimpleGrid
+            className="project"
             columns={{ sm: 1, md: 1, lg: 2, xl: 2 }}
             spacing="25px"
             p={[6, 4, 6, 8]}
@@ -222,7 +223,7 @@ export default function Navbar() {
               <Text textStyle="techStack">Tech Stacks :</Text> 
               <Text className="techStack project-tech-stack" textStyle="p2">HTML, CSS, JavaScript</Text>
               </Flex>
-              <Flex justifyContent="space-evenly" mt="5">
+              <Flex className="repo-links" justifyContent="space-evenly" mt="5">
                 <Button variant="outline" colorScheme="blue">
                   <a className="project-deployed-link" href="calm-sawine-27b8ed.netlify.app/">
                     See Live
@@ -262,7 +263,7 @@ export default function Navbar() {
               <Text textStyle="techStack">Tech Stacks :</Text> 
               <Text className="techStack project-tech-stack" textStyle="p2">HTML, CSS, JavaScript, NodeJs</Text>
               </Flex>
-              <Flex justifyContent="space-evenly" mt="5">
+              <Flex className="repo-links" justifyContent="space-evenly" mt="5">
                 <Button variant="outline" colorScheme="blue">
                   <a className="project-deployed-link" href="https://splendorous-capybara-aeb198.netlify.app">
                     See Live
@@ -299,7 +300,7 @@ export default function Navbar() {
               <Text textStyle="techStack">Tech Stacks :</Text> 
               <Text className="techStack project-tech-stack" textStyle="p2">HTML, CSS, JavaScript</Text>
               </Flex>
-              <Flex justifyContent="space-evenly" mt="5">
+              <Flex className="repo-links" justifyContent="space-evenly" mt="5">
                 <Button variant="outline" colorScheme="blue">
                   <a className="project-deployed-link" href="https://nimble-profiterole-aaa205.netlify.app">
                     See Live
@@ -335,7 +336,7 @@ export default function Navbar() {
               <Text textStyle="techStack">Tech Stacks :</Text> 
               <Text className="techStack project-tech-stack" textStyle="p2">HTML, CSS, JavaScript</Text>
               </Flex>
-              <Flex justifyContent="space-evenly" mt="5">
+              <Flex className="repo-links" justifyContent="space-evenly" mt="5">
                 <Button variant="outline" colorScheme="blue">
                   <a className="project-deployed-link" href="https://luxury-vacherin-56d222.netlify.app/">
                     See Live
