@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.963897cf.css",
-    "main.js": "/static/js/main.ba044db4.js",
+    "main.js": "/static/js/main.d2637703.js",
     "static/media/clothingo.png": "/static/media/clothingo.35f95448865fb44a493f.png",
     "static/media/tralive.png": "/static/media/tralive.d8ae512e62494becb9e8.png",
     "static/media/megamart.png": "/static/media/megamart.987b724952842bcc5c5d.png",
@@ -11,10 +11,10 @@
     "static/media/amol_img.JPG": "/static/media/amol_img.7ce848495981c5ca36f8.JPG",
     "index.html": "/index.html",
     "main.963897cf.css.map": "/static/css/main.963897cf.css.map",
-    "main.ba044db4.js.map": "/static/js/main.ba044db4.js.map"
+    "main.d2637703.js.map": "/static/js/main.d2637703.js.map"
   },
   "entrypoints": [
     "static/css/main.963897cf.css",
-    "static/js/main.ba044db4.js"
+    "static/js/main.d2637703.js"
   ]
 }
