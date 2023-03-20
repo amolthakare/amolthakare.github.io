@@ -71,12 +71,12 @@ export default function Navbar() {
                 </a>
               </Text>
               <Text>
-                <a className="menu-btn nav-link projects" href="#skills">
+                <a className="menu-btn nav-link skills" href="#skills">
                   Skills
                 </a>
               </Text>
               <Text>
-                <a className="menu-btn nav-link skills" href="#projects">
+                <a className="menu-btn nav-link projects" href="#projects">
                   Projects
                 </a>
               </Text>
@@ -208,6 +208,7 @@ export default function Navbar() {
 
       <Flex
         id="about"
+        className="about section"
         w="80%"
         m="auto"
         mt="20"
@@ -412,6 +413,7 @@ export default function Navbar() {
           {/* project 1 */}
 
           <Box className="card project-card" bg={useColorModeValue("gray.100", "gray.900")}>
+            <img src=""></img>
             <Box>
               <Image
                 src="https://github.com/Arfeen98/MamaEarthclone/raw/main/Images/MamaEarth.png"
@@ -420,7 +422,7 @@ export default function Navbar() {
             </Box>
             <Box p="5">
               <Text className="text project-title" mt="5" fontSize="25px" fontWeight="600">
-                Title
+                MamaEarth Clone
               </Text>
 
               <Text className="project-description" mt="2">
@@ -435,9 +437,9 @@ export default function Navbar() {
                 gap="5"
                 alignItems="center"
               >
-                <Text fontFamily="Space Mono, monospace">HTML</Text>{" "}
-                <Text fontFamily="Space Mono, monospace">CSS</Text>{" "}
-                <Text fontFamily="Space Mono, monospace">JavaScript</Text>
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">HTML</Text>{" "}
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">CSS</Text>{" "}
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">JavaScript</Text>
               </Flex>
 
               <Flex className="repo-links" mt="3" alignItems="center" justifyContent="space-between">
@@ -447,7 +449,7 @@ export default function Navbar() {
                 </Box>
 
                 <Box fontSize="18px">
-                  <a className="project-deployed-link" href="calm-sawine-27b8ed.netlify.app/"><i className="fa-solid fa-eye"></i></a>
+                  <a className="project-deployed-link" href="https://calm-sawine-27b8ed.netlify.app/"><i className="fa-solid fa-eye"></i></a>
                 </Box>
               </Flex>
             </Box>
@@ -456,6 +458,7 @@ export default function Navbar() {
           {/* project 2 */}
 
           <Box className="card project-card" bg={useColorModeValue("gray.100", "gray.900")}>
+            <img src=""></img>
             <Box>
               <Image
                 src={megamart}
@@ -482,10 +485,10 @@ export default function Navbar() {
                 gap="5"
                 alignItems="center"
               >
-                <Text fontFamily="Space Mono, monospace">HTML</Text>{" "}
-                <Text fontFamily="Space Mono, monospace">CSS</Text>{" "}
-                <Text fontFamily="Space Mono, monospace">JavaScript</Text>{" "}
-                <Text fontFamily="Space Mono, monospace">NodeJS</Text>
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">HTML</Text>{" "}
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">CSS</Text>{" "}
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">JavaScript</Text>{" "}
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">NodeJS</Text>
               </Flex>
 
               <Flex className="repo-links" mt="3" alignItems="center" justifyContent="space-between">
@@ -504,6 +507,7 @@ export default function Navbar() {
           {/* project 3 */}
 
           <Box className="card project-card" bg={useColorModeValue("gray.100", "gray.900")}>
+            <img src=""></img>
             <Box>
               <Image
                 src={tralive}
@@ -527,9 +531,9 @@ export default function Navbar() {
                 gap="5"
                 alignItems="center"
               >
-                <Text fontFamily="Space Mono, monospace">HTML</Text>{" "}
-                <Text fontFamily="Space Mono, monospace">CSS</Text>{" "}
-                <Text fontFamily="Space Mono, monospace">JavaScript</Text>
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">HTML</Text>{" "}
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">CSS</Text>{" "}
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">JavaScript</Text>
               </Flex>
 
               <Flex className="repo-links" mt="3" alignItems="center" justifyContent="space-between">
@@ -548,6 +552,7 @@ export default function Navbar() {
           {/* project 4 */}
 
           <Box className="card project-card" bg={useColorModeValue("gray.100", "gray.900")}>
+            <img src=""></img>
             <Box>
               <Image
                 src={clothingo}
@@ -571,9 +576,9 @@ export default function Navbar() {
                 gap="5"
                 alignItems="center"
               >
-                <Text fontFamily="Space Mono, monospace">HTML</Text>{" "}
-                <Text fontFamily="Space Mono, monospace">CSS</Text>{" "}
-                <Text fontFamily="Space Mono, monospace">JavaScript</Text>
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">HTML</Text>{" "}
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">CSS</Text>{" "}
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">JavaScript</Text>
               </Flex>
 
               <Flex className="repo-links" mt="3" alignItems="center" justifyContent="space-between">
@@ -594,7 +599,7 @@ export default function Navbar() {
       {/* contacts */}
       <Flex
         className="contact"
-        id="contacts"
+        id="contact"
         w="80%"
         m="auto"
         mt={{ base: "20", md: "40" }}
