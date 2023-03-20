@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.3cbafffe.js",
-    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/clothingo.png": "/static/media/clothingo.8838f6722c6447f567fc.png",
+    "main.css": "/static/css/main.963897cf.css",
+    "main.js": "/static/js/main.ba044db4.js",
+    "static/media/clothingo.png": "/static/media/clothingo.35f95448865fb44a493f.png",
     "static/media/tralive.png": "/static/media/tralive.d8ae512e62494becb9e8.png",
-    "static/media/megamart.png": "/static/media/megamart.5f08b9ad656c1102ffe0.png",
-    "static/media/ContactMe.png": "/static/media/ContactMe.e1c378b1a387a7c46c78.png",
-    "static/media/AboutMe.png": "/static/media/AboutMe.187d9969d7215aa3ab29.png",
-    "static/media/Amol_Thakare_resume.pdf": "/static/media/Amol_Thakare_resume.b46a38f253017b9a349a.pdf",
+    "static/media/megamart.png": "/static/media/megamart.987b724952842bcc5c5d.png",
+    "static/media/conatct.png": "/static/media/conatct.23e33ebe8311371043d6.png",
+    "static/media/developer.png": "/static/media/developer.7c25e2a1a5f9a0d0f95a.png",
+    "static/media/Amol_Thakare_Resume.pdf": "/static/media/Amol_Thakare_Resume.b46a38f253017b9a349a.pdf",
     "static/media/amol_img.JPG": "/static/media/amol_img.7ce848495981c5ca36f8.JPG",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.3cbafffe.js.map": "/static/js/main.3cbafffe.js.map",
-    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+    "main.963897cf.css.map": "/static/css/main.963897cf.css.map",
+    "main.ba044db4.js.map": "/static/js/main.ba044db4.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.3cbafffe.js"
+    "static/css/main.963897cf.css",
+    "static/js/main.ba044db4.js"
   ]
 }
