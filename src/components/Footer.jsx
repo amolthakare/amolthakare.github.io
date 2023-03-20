@@ -1,33 +1,34 @@
+import { Box, Flex, Text, useColorModeValue } from "@chakra-ui/react";
 import React from "react";
-import { Box, Container, SimpleGrid, Text } from "@chakra-ui/react";
 
 const Footer = () => {
   return (
-    <Container>
-      <SimpleGrid columns={{ sm: 1, md: 1, lg: 2, xl: 2 }} spacing="10px">
+    <Box
+      mt="10"
+      bg={useColorModeValue("gray.100", "gray.900")}
+      textAlign="center"
+    >
+      <Flex
+        alignItems="center"
+        justifyContent="space-around"
+        flexDirection={{ base: "column", md: "row" }}
+        p="5"
+      >
         <Box>
           <Text>
-            <span>
-              <i className="fa-solid fa-envelope" />
-            </span>{" "}
-            amolthakare631@gmail.com
+            <i className="fa-solid fa-envelope"></i> amolThakare@gmail.com
           </Text>
         </Box>
-        <Box>
+        <Box mt={{base:"3", md:"0"}}>
           <Text>
-            <a id="contact-phone" href="tel:+91-9657654460">
-              <span>
-                <i className="fa-solid fa-phone" />
-              </span>{" "}
-              +91-9657654460
-            </a>
+            <i className="fa-solid fa-mobile-retro"></i> +91 85658658645
           </Text>
         </Box>
-      </SimpleGrid>
-      <Text textStyle="footerText">
-        Created By Amol | 2022 All rights reserved.
-      </Text>
-    </Container>
+      </Flex>
+      <Box borderTop={useColorModeValue("1px solid #cecece","1px solid #4d4d50")} p="3">
+        <Text fontSize="14px">2023, Made by Amol Thakare.</Text>
+      </Box>
+    </Box>
   );
 };
 
