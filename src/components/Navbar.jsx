@@ -24,6 +24,7 @@ import amol_img from "../assets/amol_img.JPG";
 import tralive from "../assets/tralive.png";
 import clothingo from "../assets/clothingo.png";
 import megamart from "../assets/megamart.png";
+import GitHubCalendar from "react-github-calendar";
 
 export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -240,7 +241,7 @@ export default function Navbar() {
       </Flex>
 
       {/* skills */}
-
+      
       <Box id="skills" w="80%" m="auto" mt={{ base: "20", md: "40" }}>
         <Text fontSize="30" fontWeight="600">
           Skills
@@ -412,10 +413,11 @@ export default function Navbar() {
         <SimpleGrid className="project" columns={[1, 1, null, 2]} spacing="80px" mt="5">
           {/* project 1 */}
 
-          <Box className="card project-card" bg={useColorModeValue("gray.100", "gray.900")}>
+          <Box boxShadow={"rgba(0, 0, 0, 0.35) 0px 5px 15px"} borderRadius="lg" className="card project-card" bg={useColorModeValue("gray.100", "gray.900")}>
             <img src=""></img>
             <Box>
               <Image
+                borderTopRadius="lg"
                 src="https://github.com/Arfeen98/MamaEarthclone/raw/main/Images/MamaEarth.png"
                 alt=""
               />
@@ -595,6 +597,37 @@ export default function Navbar() {
           </Box>
         </SimpleGrid>
       </Box>
+
+      {/* github stats */}
+
+      <Box w="80%" m="auto" mt="100px" textAlign="left">
+      <Text fontSize="30px" fontWeight="600">
+          Github Stats
+        </Text>
+      <GitHubCalendar
+        textAlign="left"
+        username="amolthakare"
+        color="rgb(49,130,206)"
+        blockSize={20}
+        blockMargin={10}
+      />
+
+      <SimpleGrid columns={[1, null, 2, 3]} spacing="40px" mt="10">
+        <Box>
+          <Image
+            src="https://github-readme-stats.vercel.app/api?username=amolthakare&theme=react&hide_border=false&include_all_commits=false&count_private=false" alt="" />
+        </Box>
+
+        <Box>
+          <Image
+            src="https://github-readme-streak-stats.herokuapp.com/?user=amolthakare&theme=react&hide_border=false" alt="" />
+        </Box>
+
+        <Box>
+          <Image height="100%" width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amolthakare&theme=react&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="" />
+        </Box>
+      </SimpleGrid>
+    </Box>
 
       {/* contacts */}
       <Flex
