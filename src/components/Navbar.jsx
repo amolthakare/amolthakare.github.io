@@ -605,6 +605,7 @@ export default function Navbar() {
           Github Stats
         </Text>
       <GitHubCalendar
+        className="react-activity-calendar"
         textAlign="left"
         username="amolthakare"
         color="rgb(49,130,206)"
@@ -614,17 +615,17 @@ export default function Navbar() {
 
       <SimpleGrid columns={[1, null, 2, 3]} spacing="40px" mt="10">
         <Box>
-          <Image
+          <Image id="github-stats-card"
             src="https://github-readme-stats.vercel.app/api?username=amolthakare&theme=react&hide_border=false&include_all_commits=false&count_private=false" alt="" />
         </Box>
 
         <Box>
-          <Image
+          <Image id="github-streak-stats"
             src="https://github-readme-streak-stats.herokuapp.com/?user=amolthakare&theme=react&hide_border=false" alt="" />
         </Box>
 
         <Box>
-          <Image height="100%" width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amolthakare&theme=react&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="" />
+          <Image id="github-top-langs" height="100%" width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amolthakare&theme=react&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="" />
         </Box>
       </SimpleGrid>
     </Box>
