@@ -38,4 +38,36 @@
 }
 .skillBox:hover{
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  /* background-color: #edf2f7; */
+}
+/* This is a stylization for a certain example, you can stylize it for your own layout */ 
+.change-photos {
+ 
+}
+.change-photos .change-photo .pro_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Hiding the second picture right away */
+.change-photos .change-photo:nth-of-type(2) {
+  display: none;
+}
+
+/* When you hover your cursor over the parent change-photos class, the first picture is hidden, and the second is shown */
+
+.change-photos:hover .change-photo:nth-of-type(1) {
+  display: none;
+}
+
+.change-photos:hover .change-photo:nth-of-type(2) {
+  display: block;
+}
+
+.change-photos:hover {
+  cursor: pointer;
+}
+.project-card:hover{
+  /* background-color: #edf2f7; */
 }

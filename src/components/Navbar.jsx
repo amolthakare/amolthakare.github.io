@@ -24,6 +24,11 @@ import amol_img from "../assets/amol_img.JPG";
 import tralive from "../assets/tralive.png";
 import clothingo from "../assets/clothingo.png";
 import megamart from "../assets/megamart.png";
+import tralive1 from "../assets/tralive1.png";
+import clothingo1 from "../assets/clothingo1.png";
+import megamart1 from "../assets/megamart1.png";
+import mamaearth from "../assets/mamaearth.png";
+import mamaearth1 from "../assets/mamaearth1.png";
 import GitHubCalendar from "react-github-calendar";
 
 export default function Navbar() {
@@ -253,7 +258,7 @@ export default function Navbar() {
           spacing="80px"
           mt="10"
         >
-          <Box className="skillBox">
+          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
             <Image
               w="20"
               className="skills-card-img"
@@ -265,7 +270,7 @@ export default function Navbar() {
               HTML
             </Text>
           </Box>
-          <Box className="skillBox">
+          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
             <Image
               w="20"
               className="skills-card-img"
@@ -278,7 +283,7 @@ export default function Navbar() {
             </Text>
           </Box>
 
-          <Box className="skillBox">
+          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
             <Image
               w="20"
               className="skills-card-img"
@@ -290,7 +295,7 @@ export default function Navbar() {
               JavaScript
             </Text>
           </Box>
-          <Box className="skillBox">
+          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
             <Image
               w="20"
               className="skills-card-img"
@@ -302,7 +307,7 @@ export default function Navbar() {
               React
             </Text>
           </Box>
-          <Box className="skillBox">
+          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
             <Image
               w="20"
               className="skills-card-img"
@@ -314,7 +319,7 @@ export default function Navbar() {
               NodeJS
             </Text>
           </Box>
-          <Box className="skillBox">
+          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
             <Image
               w="20"
               className="skills-card-img"
@@ -326,7 +331,7 @@ export default function Navbar() {
               Express
             </Text>
           </Box>
-          <Box className="skillBox">
+          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
             <Image
               w="20"
               className="skills-card-img"
@@ -338,7 +343,7 @@ export default function Navbar() {
               Mongoose
             </Text>
           </Box>
-          <Box className="skillBox">
+          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
             <Image
               w="20"
               className="skills-card-img"
@@ -350,7 +355,7 @@ export default function Navbar() {
               MongoDB
             </Text>
           </Box>
-          <Box className="skillBox">
+          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
             <Image
               w="20"
               className="skills-card-img"
@@ -362,7 +367,7 @@ export default function Navbar() {
               AWS
             </Text>
           </Box>
-          <Box className="skillBox">
+          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
             <Image
               w="20"
               className="skills-card-img"
@@ -374,7 +379,7 @@ export default function Navbar() {
               My SQL
             </Text>
           </Box>
-          <Box className="skillBox">
+          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
             <Image
               w="20"
               className="skills-card-img"
@@ -386,7 +391,7 @@ export default function Navbar() {
               Chakra UI
             </Text>
           </Box>
-          <Box className="skillBox">
+          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
             <Image
               w="20"
               className="skills-card-img"
@@ -413,22 +418,34 @@ export default function Navbar() {
         <SimpleGrid className="project" columns={[1, 1, null, 2]} spacing="80px" mt="5">
           {/* project 1 */}
 
-          <Box boxShadow={"rgba(0, 0, 0, 0.35) 0px 5px 15px"} borderRadius="lg" className="card project-card" bg={useColorModeValue("gray.100", "gray.900")}>
+          <Box boxShadow={"rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"} borderRadius="lg" className="card project-card" bg={useColorModeValue("gray.100", "gray.900")} _hover={{ bg :useColorModeValue("gray.300", "gray.1400") }} >
             <img src=""></img>
-            <Box>
-              <Image
-                borderTopRadius="lg"
-                src="https://github.com/Arfeen98/MamaEarthclone/raw/main/Images/MamaEarth.png"
-                alt=""
-              />
+
+            <Box className="change-photos">
+              <div className="change-photo">
+                <Image className="pro_img"
+                  borderTopRadius="lg"
+                  src={mamaearth}
+                  alt=""
+                />
+              </div>
+              <div className="change-photo">
+                <Image className="pro_img"
+                  borderTopRadius="lg"
+                  src={mamaearth1}
+                  alt=""
+                />
+              </div>
             </Box>
+
+
             <Box p="5">
               <Text className="text project-title" mt="5" fontSize="25px" fontWeight="600">
                 MamaEarth Clone
               </Text>
 
               <Text className="project-description" mt="2">
-                Mamaearth is one of the most trustworthy brands in India. It offers the best-in-class skincare products to help you discover the essence of beauty with the Goodness of Nature.
+                Mamaearth is one of the most trustworthy brands in India. It offers the best-in-class Natural & Toxin Free Skin Care Products to help you to discover the essence of beauty with the Goodness of Nature.
               </Text>
               <Flex
                 className="techStack project-tech-stack"
@@ -445,12 +462,11 @@ export default function Navbar() {
               </Flex>
 
               <Flex className="repo-links" mt="3" alignItems="center" justifyContent="space-between">
-                <Box fontSize="18px">
+                <Box fontSize="25px">
                   <a className="project-github-link" href="https://github.com/Arfeen98/MamaEarthclone"><i className="fa-brands fa-github"></i></a>
-                  
                 </Box>
 
-                <Box fontSize="18px">
+                <Box fontSize="25px">
                   <a className="project-deployed-link" href="https://calm-sawine-27b8ed.netlify.app/"><i className="fa-solid fa-eye"></i></a>
                 </Box>
               </Flex>
@@ -459,13 +475,23 @@ export default function Navbar() {
 
           {/* project 2 */}
 
-          <Box className="card project-card" bg={useColorModeValue("gray.100", "gray.900")}>
+          <Box boxShadow={"rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"} borderRadius="lg" className="card project-card" bg={useColorModeValue("gray.100", "gray.900")} _hover={{ bg :useColorModeValue("gray.300", "gray.1400") }}>
             <img src=""></img>
-            <Box>
-              <Image
-                src={megamart}
-                alt=""
-              />
+            <Box className="change-photos">
+              <div className="change-photo">
+                <Image className="pro_img"
+                  borderTopRadius="lg"
+                  src={megamart}
+                  alt=""
+                />
+              </div>
+              <div className="change-photo">
+                <Image className="pro_img"
+                  borderTopRadius="lg"
+                  src={megamart1}
+                  alt=""
+                />
+              </div>
             </Box>
             <Box p="5">
               <Text className="text project-title" mt="5" fontSize="25px" fontWeight="600">
@@ -494,12 +520,12 @@ export default function Navbar() {
               </Flex>
 
               <Flex className="repo-links" mt="3" alignItems="center" justifyContent="space-between">
-                <Box fontSize="18px">
+                <Box fontSize="25px">
                   <a className="project-github-link" href="https://github.com/amolthakare/crooked-milk-1565"><i className="fa-brands fa-github"></i></a>
                   
                 </Box>
 
-                <Box fontSize="18px">
+                <Box fontSize="25px">
                   <a className="project-deployed-link" href="https://splendorous-capybara-aeb198.netlify.app"><i className="fa-solid fa-eye"></i></a>
                 </Box>
               </Flex>
@@ -508,13 +534,23 @@ export default function Navbar() {
 
           {/* project 3 */}
 
-          <Box className="card project-card" bg={useColorModeValue("gray.100", "gray.900")}>
+          <Box boxShadow={"rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"} borderRadius="lg" className="card project-card" bg={useColorModeValue("gray.100", "gray.900")} _hover={{ bg :useColorModeValue("gray.300", "gray.1400") }} >
             <img src=""></img>
-            <Box>
-              <Image
-                src={tralive}
-                alt=""
-              />
+            <Box className="change-photos">
+              <div className="change-photo">
+                <Image className="pro_img"
+                  borderTopRadius="lg"
+                  src={tralive}
+                  alt=""
+                />
+              </div>
+              <div className="change-photo">
+                <Image className="pro_img"
+                  borderTopRadius="lg"
+                  src={tralive1}
+                  alt=""
+                />
+              </div>
             </Box>
             <Box p="5">
               <Text className="text project-title" mt="5" fontSize="25px" fontWeight="600">
@@ -539,12 +575,12 @@ export default function Navbar() {
               </Flex>
 
               <Flex className="repo-links" mt="3" alignItems="center" justifyContent="space-between">
-                <Box fontSize="18px">
+                <Box fontSize="25px">
                   <a className="project-github-link" href="https://github.com/amolthakare/-thankful-distribution-751"><i className="fa-brands fa-github"></i></a>
                   
                 </Box>
 
-                <Box fontSize="18px">
+                <Box fontSize="25px">
                   <a className="project-deployed-link" href="https://nimble-profiterole-aaa205.netlify.app"><i className="fa-solid fa-eye"></i></a>
                 </Box>
               </Flex>
@@ -553,13 +589,23 @@ export default function Navbar() {
 
           {/* project 4 */}
 
-          <Box className="card project-card" bg={useColorModeValue("gray.100", "gray.900")}>
+          <Box boxShadow={"rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"} borderRadius="lg" className="card project-card" bg={useColorModeValue("gray.100", "gray.900")} _hover={{ bg :useColorModeValue("gray.300", "gray.1400") }}>
             <img src=""></img>
-            <Box>
-              <Image
-                src={clothingo}
-                alt=""
-              />
+            <Box className="change-photos">
+              <div className="change-photo">
+                <Image className="pro_img"
+                  borderTopRadius="lg"
+                  src={clothingo}
+                  alt=""
+                />
+              </div>
+              <div className="change-photo">
+                <Image className="pro_img"
+                  borderTopRadius="lg"
+                  src={clothingo1}
+                  alt=""
+                />
+              </div>
             </Box>
             <Box p="5">
               <Text className="text project-title" mt="5" fontSize="25px" fontWeight="600">
@@ -584,12 +630,12 @@ export default function Navbar() {
               </Flex>
 
               <Flex className="repo-links" mt="3" alignItems="center" justifyContent="space-between">
-                <Box fontSize="18px">
+                <Box fontSize="25px">
                   <a className="project-github-link" href="https://github.com/hrithikvishwakarma001/complex-oranges-7381"><i className="fa-brands fa-github"></i></a>
                   
                 </Box>
 
-                <Box fontSize="18px">
+                <Box fontSize="25px">
                   <a className="project-deployed-link" href="https://luxury-vacherin-56d222.netlify.app/"><i className="fa-solid fa-eye"></i></a>
                 </Box>
               </Flex>
