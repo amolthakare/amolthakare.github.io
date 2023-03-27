@@ -92,14 +92,17 @@ export default function Navbar() {
                 </a>
               </Text>
               <Text>
-                <a
-                  className="menu-btn nav-link resume"
-                  id="resume-button-1"
-                  href={resume}
-                  download
-                >
-                  Resume
-                </a>
+                <Button id="resume-button-1">
+                  <a
+                    className="menu-btn nav-link resume"
+                    id="resume-link-1"
+                    href={resume}
+                    download
+                  >
+                    Resume
+                  </a>
+                </Button>
+                
               </Text>
             </HStack>
             <Button
@@ -131,14 +134,16 @@ export default function Navbar() {
                 <a href="#contact">Contact</a>
               </Text>
               <Text>
-                <a
-                  className="menu-btn nav-link resume"
-                  id="resume-button-1"
-                  href={resume}
-                  download
-                >
-                  Resume
-                </a>
+              <Button id="resume-button-1">
+                  <a
+                    className="menu-btn nav-link resume"
+                    id="resume-link-1"
+                    href={resume}
+                    download
+                  >
+                    Resume
+                  </a>
+                </Button>
               </Text>
             </Stack>
           </Box>
@@ -194,8 +199,9 @@ export default function Navbar() {
             position="static"
             letterSpacing="0.5px"
             color="white"
+            id="resume-button-2"
           >
-            <a id="resume-button-2" href={resume} download>
+            <a id="resume-link-2" href={resume} download>
               Resume <i className="fa-solid fa-arrow-down"></i>
             </a>
           </Button>
@@ -711,7 +717,7 @@ export default function Navbar() {
               bg="#0077b5"
               color="#f2f2f2"
             >
-              <Text id="contact-linkedin" fontSize={{ base: "14px", md: "16px" }}>Linkedin</Text>
+              <Text id="contact-linkedin" fontSize={{ base: "14px", md: "16px" }}><a href="https://www.linkedin.com/in/amol-thakare-90469b237/">Linkedin</a></Text>
               <Box display={{ base: "none", md: "flex" }}>
                 <i className="fa-brands fa-linkedin-in"></i>
               </Box>
@@ -726,7 +732,7 @@ export default function Navbar() {
               color="#f2f2f2"
               bg="#161b22"
             >
-              <Text id="contact-github" fontSize={{ base: "14px", md: "16px" }}>Github</Text>
+              <Text id="contact-github" fontSize={{ base: "14px", md: "16px" }}><a href="https://github.com/amolthakare">Github</a></Text>
 
               <Box display={{ base: "none", md: "flex" }}>
                 <i className="fa-brands fa-github"></i>
@@ -741,10 +747,11 @@ export default function Navbar() {
               borderRadius="md"
               bg="#00e361"
             >
-              <Text fontSize={{ base: "14px", md: "16px" }}>HackerRank</Text>
+              <Text fontSize={{ base: "14px", md: "16px" }}><a href="https://www.hackerrank.com/amolthakare631">HackerRank</a></Text>
               <Box display={{ base: "none", md: "flex" }}>
                 <i className="fa-brands fa-hackerrank"></i>
               </Box>
+              
             </Flex>
           </Flex>
           <Box mt="8">
