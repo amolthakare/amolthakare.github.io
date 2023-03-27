@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.963897cf.css",
-    "main.js": "/static/js/main.a06b5d12.js",
+    "main.css": "/static/css/main.6caf3639.css",
+    "main.js": "/static/js/main.e4a0426d.js",
     "static/media/clothingo.png": "/static/media/clothingo.35f95448865fb44a493f.png",
-    "static/media/tralive.png": "/static/media/tralive.d8ae512e62494becb9e8.png",
-    "static/media/megamart.png": "/static/media/megamart.987b724952842bcc5c5d.png",
+    "static/media/tralive.png": "/static/media/tralive.26087ea4d66435414e69.png",
+    "static/media/mamaearth.png": "/static/media/mamaearth.07db54cbfe5118cbf895.png",
+    "static/media/tralive1.png": "/static/media/tralive1.979d6655d699679c8456.png",
+    "static/media/megamart1.png": "/static/media/megamart1.5ae570fb72212c4f8811.png",
+    "static/media/mamaearth1.png": "/static/media/mamaearth1.05538b702fd76b1eef25.png",
+    "static/media/megamart.png": "/static/media/megamart.034b0feaa8fbe1fdd7c6.png",
     "static/media/conatct.png": "/static/media/conatct.23e33ebe8311371043d6.png",
+    "static/media/clothingo1.png": "/static/media/clothingo1.2e260bcfa7bd10c9c623.png",
     "static/media/developer.png": "/static/media/developer.7c25e2a1a5f9a0d0f95a.png",
     "static/media/Amol_Thakare_Resume.pdf": "/static/media/Amol_Thakare_Resume.b46a38f253017b9a349a.pdf",
     "static/media/amol_img.JPG": "/static/media/amol_img.7ce848495981c5ca36f8.JPG",
     "index.html": "/index.html",
-    "main.963897cf.css.map": "/static/css/main.963897cf.css.map",
-    "main.a06b5d12.js.map": "/static/js/main.a06b5d12.js.map"
+    "main.6caf3639.css.map": "/static/css/main.6caf3639.css.map",
+    "main.e4a0426d.js.map": "/static/js/main.e4a0426d.js.map"
   },
   "entrypoints": [
-    "static/css/main.963897cf.css",
-    "static/js/main.a06b5d12.js"
+    "static/css/main.6caf3639.css",
+    "static/js/main.e4a0426d.js"
   ]
 }
