@@ -152,6 +152,7 @@ export default function Navbar() {
 
       {/* Home section */}
 
+
       <Flex
         id="home"
         w="80%"
