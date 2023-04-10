@@ -105,11 +105,7 @@ export default function Navbar() {
                 
               </Text>
             </HStack>
-            <Button
-              onClick={toggleColorMode}
-              variant="ghost"
-              _hover={{ variant: "ghost" }}
-            >
+            <Button onClick={toggleColorMode} variant="ghost" _hover={{ variant: "ghost" }}>
               {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
             </Button>
           </Flex>
