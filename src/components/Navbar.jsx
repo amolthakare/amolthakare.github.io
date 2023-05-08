@@ -19,7 +19,7 @@ import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 import developer from "../assets/developer.png";
 import conatct from "../assets/conatct.png";
-import resume from "../assets/Amol_Thakare_Resume.pdf";
+import resume from "../assets/amol-thakare-resume.pdf";
 import amol_img from "../assets/amol_img.JPG";
 import tralive from "../assets/tralive.png";
 import clothingo from "../assets/clothingo.png";
