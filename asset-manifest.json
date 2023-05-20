@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6caf3639.css",
-    "main.js": "/static/js/main.0c50f4ea.js",
+    "main.js": "/static/js/main.a5dcc9ad.js",
     "static/media/clothingo.png": "/static/media/clothingo.35f95448865fb44a493f.png",
     "static/media/tralive.png": "/static/media/tralive.26087ea4d66435414e69.png",
     "static/media/mamaearth.png": "/static/media/mamaearth.07db54cbfe5118cbf895.png",
@@ -11,15 +11,15 @@
     "static/media/megamart.png": "/static/media/megamart.034b0feaa8fbe1fdd7c6.png",
     "static/media/conatct.png": "/static/media/conatct.23e33ebe8311371043d6.png",
     "static/media/clothingo1.png": "/static/media/clothingo1.2e260bcfa7bd10c9c623.png",
+    "static/media/amol-thakare-resume.pdf": "/static/media/amol-thakare-resume.717e5e33e8a4a5b7d96c.pdf",
     "static/media/developer.png": "/static/media/developer.7c25e2a1a5f9a0d0f95a.png",
-    "static/media/Amol_Thakare_Resume.pdf": "/static/media/Amol_Thakare_Resume.b46a38f253017b9a349a.pdf",
     "static/media/amol_img.JPG": "/static/media/amol_img.7ce848495981c5ca36f8.JPG",
     "index.html": "/index.html",
     "main.6caf3639.css.map": "/static/css/main.6caf3639.css.map",
-    "main.0c50f4ea.js.map": "/static/js/main.0c50f4ea.js.map"
+    "main.a5dcc9ad.js.map": "/static/js/main.a5dcc9ad.js.map"
   },
   "entrypoints": [
     "static/css/main.6caf3639.css",
-    "static/js/main.0c50f4ea.js"
+    "static/js/main.a5dcc9ad.js"
   ]
 }
