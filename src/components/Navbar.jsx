@@ -406,6 +406,30 @@ export default function Navbar() {
               Bootstrap
             </Text>
           </Box>
+          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
+            <Image
+              w="20"
+              className="skills-card-img"
+              textStyle="skillLogo"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLmYn2mSmHIPZt21bC-NRpTbtRSVnvf8ui58hO_LqNJQ&s"
+              alt=""
+            />
+            <Text className="skills-card-name" textStyle="skillText">
+              TypeScript
+            </Text>
+          </Box>
+          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
+            <Image
+              w="20"
+              className="skills-card-img"
+              textStyle="skillLogo"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSON-FnJaoNBaGs-zSyGexaNBOci3hDVP7It3QA2g6sJA&s"
+              alt=""
+            />
+            <Text className="skills-card-name" textStyle="skillText">
+              Redis
+            </Text>
+          </Box>
           
         </SimpleGrid>
       </Box>
@@ -419,7 +443,121 @@ export default function Navbar() {
         </Text>
 
         <SimpleGrid className="project" columns={[1, 1, null, 2]} spacing="80px" mt="5">
-          {/* project 1 */}
+          {/* project 0 */}
+
+          <Box boxShadow={"rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"} borderRadius="lg" className="card project-card" bg={useColorModeValue("gray.100", "gray.900")} _hover={{ bg :useColorModeValue("gray.300", "gray.1400") }} >
+            <img src=""></img>
+
+            <Box className="change-photos">
+              <div className="change-photo">
+                <Image className="pro_img"
+                  borderTopRadius="lg"
+                  src='https://github.com/amolthakare/slack-clone/raw/master/highlights_img/we-1.png'
+                  alt=""
+                />
+              </div>
+              <div className="change-photo">
+                <Image className="pro_img"
+                  borderTopRadius="lg"
+                  src='https://github.com/amolthakare/slack-clone/raw/master/highlights_img/we-5.png'
+                  alt=""
+                />
+              </div>
+            </Box>
+
+
+            <Box p="5">
+              <Text className="text project-title" mt="5" fontSize="25px" fontWeight="600">
+                Slack Clone
+              </Text>
+
+              <Text className="project-description" mt="2">
+              'WeConnect' clone of Slack allows teams to organize their communication and work in a central location, making it easier to stay connected and collaborate effectively.
+              </Text>
+              <Flex
+                className="techStack project-tech-stack"
+                mt="4"
+                fontSize="15px"
+                color="#407bff"
+                flexFlow="wrap"
+                gap="5"
+                alignItems="center"
+              >
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">HTML</Text>{" "}
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">CSS</Text>{" "}
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">JavaScript</Text>{" "}
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">MongoDB</Text>{" "}
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">Socket.io</Text>{" "}
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">Redis</Text>{" "}
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">Express</Text>
+              </Flex>
+
+              <Flex className="repo-links" mt="3" alignItems="center" justifyContent="space-between">
+                <Box fontSize="25px">
+                  <a className="project-github-link" href="https://github.com/amolthakare/slack-clone"><i className="fa-brands fa-github"></i></a>
+                </Box>
+
+                <Box fontSize="25px">
+                  <a className="project-deployed-link" href="https://singular-axolotl-96063b.netlify.app/"><i className="fa-solid fa-eye"></i></a>
+                </Box>
+              </Flex>
+            </Box>
+          </Box>
+
+          <Box boxShadow={"rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"} borderRadius="lg" className="card project-card" bg={useColorModeValue("gray.100", "gray.900")} _hover={{ bg :useColorModeValue("gray.300", "gray.1400") }} >
+            <img src=""></img>
+
+            <Box className="change-photos">
+              <div className="change-photo">
+                <Image className="pro_img"
+                  borderTopRadius="lg"
+                  src='https://user-images.githubusercontent.com/112674221/229420654-84b13fc6-0a57-4474-94a0-fdb7b936278c.png'
+                  alt=""
+                />
+              </div>
+              <div className="change-photo">
+                <Image className="pro_img"
+                  borderTopRadius="lg"
+                  src='https://user-images.githubusercontent.com/112674221/229420797-a23ee471-6dfb-4e43-b36d-eea25cc90c00.png'
+                  alt=""
+                />
+              </div>
+            </Box>
+
+
+            <Box p="5">
+              <Text className="text project-title" mt="5" fontSize="25px" fontWeight="600">
+                Tooth Tracker
+              </Text>
+
+              <Text className="project-description" mt="2">
+              Tooth Tracker is a dentist booking system that allows patients to schedule appointments with their dentist online, rather than having to call the dental office. The system typically provides a user-friendly interface that enables patients to choose the date and time of their appointment, select their preferred dentist, and enter their personal information.              </Text>
+              <Flex
+                className="techStack project-tech-stack"
+                mt="4"
+                fontSize="15px"
+                color="#407bff"
+                flexFlow="wrap"
+                gap="5"
+                alignItems="center"
+              >
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">HTML</Text>{" "}
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">CSS</Text>{" "}
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">JavaScript</Text>{" "}
+                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">MySql</Text>
+              </Flex>
+
+              <Flex className="repo-links" mt="3" alignItems="center" justifyContent="space-between">
+                <Box fontSize="25px">
+                  <a className="project-github-link" href="https://github.com/amolthakare/Tooth-Tracker"><i className="fa-brands fa-github"></i></a>
+                </Box>
+
+                <Box fontSize="25px">
+                  <a className="project-deployed-link" href="https://tooth-tracker.netlify.app/"><i className="fa-solid fa-eye"></i></a>
+                </Box>
+              </Flex>
+            </Box>
+          </Box>
 
           <Box boxShadow={"rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"} borderRadius="lg" className="card project-card" bg={useColorModeValue("gray.100", "gray.900")} _hover={{ bg :useColorModeValue("gray.300", "gray.1400") }} >
             <img src=""></img>
