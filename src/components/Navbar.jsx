@@ -493,12 +493,14 @@ export default function Navbar() {
               </Flex>
 
               <Flex className="repo-links" mt="3" alignItems="center" justifyContent="space-between">
-                <Box fontSize="25px">
-                  <a className="project-github-link" href="https://github.com/amolthakare/slack-clone"><i className="fa-brands fa-github"></i></a>
+                <Box fontSize="25px" textAlign="center" >
+                  <a display="flex" className="project-github-link" href="https://github.com/amolthakare/slack-clone"><i className="fa-brands fa-github"></i><Text fontSize="12px" mt="-8px">See Code</Text>
+                  </a>
+                  
                 </Box>
 
-                <Box fontSize="25px">
-                  <a className="project-deployed-link" href="https://singular-axolotl-96063b.netlify.app/"><i className="fa-solid fa-eye"></i></a>
+                <Box fontSize="25px" textAlign="center">
+                  <a className="project-deployed-link" href="https://singular-axolotl-96063b.netlify.app/"><i className="fa-solid fa-eye"></i><Text fontSize="12px" mt="-8px">See Live</Text></a>
                 </Box>
               </Flex>
             </Box>
@@ -548,12 +550,12 @@ export default function Navbar() {
               </Flex>
 
               <Flex className="repo-links" mt="3" alignItems="center" justifyContent="space-between">
-                <Box fontSize="25px">
-                  <a className="project-github-link" href="https://github.com/amolthakare/Tooth-Tracker"><i className="fa-brands fa-github"></i></a>
+                <Box fontSize="25px" textAlign="center">
+                  <a className="project-github-link" href="https://github.com/amolthakare/Tooth-Tracker"><i className="fa-brands fa-github"></i><Text fontSize="12px" mt="-8px">See Code</Text></a>
                 </Box>
 
-                <Box fontSize="25px">
-                  <a className="project-deployed-link" href="https://tooth-tracker.netlify.app/"><i className="fa-solid fa-eye"></i></a>
+                <Box fontSize="25px" textAlign="center">
+                  <a className="project-deployed-link"  href="https://tooth-tracker.netlify.app/"><i className="fa-solid fa-eye"></i><Text fontSize="12px" mt="-8px">See Live</Text></a>
                 </Box>
               </Flex>
             </Box>
@@ -603,12 +605,12 @@ export default function Navbar() {
               </Flex>
 
               <Flex className="repo-links" mt="3" alignItems="center" justifyContent="space-between">
-                <Box fontSize="25px">
-                  <a className="project-github-link" href="https://github.com/Arfeen98/MamaEarthclone"><i className="fa-brands fa-github"></i></a>
+                <Box fontSize="25px" textAlign="center">
+                  <a className="project-github-link" href="https://github.com/Arfeen98/MamaEarthclone"><i className="fa-brands fa-github"></i><Text fontSize="12px" mt="-8px">See Code</Text></a>
                 </Box>
 
-                <Box fontSize="25px">
-                  <a className="project-deployed-link" href="https://calm-sawine-27b8ed.netlify.app/"><i className="fa-solid fa-eye"></i></a>
+                <Box fontSize="25px" textAlign="center">
+                  <a className="project-deployed-link" href="https://calm-sawine-27b8ed.netlify.app/"><i className="fa-solid fa-eye"></i><Text fontSize="12px" mt="-8px">See Live</Text></a>
                 </Box>
               </Flex>
             </Box>
@@ -661,13 +663,13 @@ export default function Navbar() {
               </Flex>
 
               <Flex className="repo-links" mt="3" alignItems="center" justifyContent="space-between">
-                <Box fontSize="25px">
-                  <a className="project-github-link" href="https://github.com/amolthakare/crooked-milk-1565"><i className="fa-brands fa-github"></i></a>
+                <Box fontSize="25px" textAlign="center">
+                  <a className="project-github-link" href="https://github.com/amolthakare/crooked-milk-1565"><i className="fa-brands fa-github"></i><Text fontSize="12px" mt="-8px">See Code</Text></a>
                   
                 </Box>
 
-                <Box fontSize="25px">
-                  <a className="project-deployed-link" href="https://splendorous-capybara-aeb198.netlify.app"><i className="fa-solid fa-eye"></i></a>
+                <Box fontSize="25px" textAlign="center">
+                  <a className="project-deployed-link" href="https://splendorous-capybara-aeb198.netlify.app"><i className="fa-solid fa-eye"></i><Text fontSize="12px" mt="-8px">See Live</Text></a>
                 </Box>
               </Flex>
             </Box>
@@ -716,13 +718,13 @@ export default function Navbar() {
               </Flex>
 
               <Flex className="repo-links" mt="3" alignItems="center" justifyContent="space-between">
-                <Box fontSize="25px">
-                  <a className="project-github-link" href="https://github.com/amolthakare/-thankful-distribution-751"><i className="fa-brands fa-github"></i></a>
+                <Box fontSize="25px" textAlign="center">
+                  <a className="project-github-link" href="https://github.com/amolthakare/-thankful-distribution-751"><i className="fa-brands fa-github"></i><Text fontSize="12px" mt="-8px">See Code</Text></a>
                   
                 </Box>
 
-                <Box fontSize="25px">
-                  <a className="project-deployed-link" href="https://nimble-profiterole-aaa205.netlify.app"><i className="fa-solid fa-eye"></i></a>
+                <Box fontSize="25px" textAlign="center">
+                  <a className="project-deployed-link" href="https://nimble-profiterole-aaa205.netlify.app"><i className="fa-solid fa-eye"></i><Text fontSize="12px" mt="-8px">See Live</Text></a>
                 </Box>
               </Flex>
             </Box>
@@ -771,13 +773,13 @@ export default function Navbar() {
               </Flex>
 
               <Flex className="repo-links" mt="3" alignItems="center" justifyContent="space-between">
-                <Box fontSize="25px">
-                  <a className="project-github-link" href="https://github.com/hrithikvishwakarma001/complex-oranges-7381"><i className="fa-brands fa-github"></i></a>
+                <Box fontSize="25px" textAlign="center">
+                  <a className="project-github-link" href="https://github.com/hrithikvishwakarma001/complex-oranges-7381"><i className="fa-brands fa-github"></i><Text fontSize="12px" mt="-8px">See Code</Text></a>
                   
                 </Box>
 
-                <Box fontSize="25px">
-                  <a className="project-deployed-link" href="https://luxury-vacherin-56d222.netlify.app/"><i className="fa-solid fa-eye"></i></a>
+                <Box fontSize="25px" textAlign="center">
+                  <a className="project-deployed-link" href="https://luxury-vacherin-56d222.netlify.app/"><i className="fa-solid fa-eye"></i><Text fontSize="12px" mt="-8px">See Live</Text></a>
                 </Box>
               </Flex>
             </Box>
