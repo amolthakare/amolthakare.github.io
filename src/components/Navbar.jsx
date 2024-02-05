@@ -102,10 +102,13 @@ export default function Navbar() {
                     Resume
                   </a>
                 </Button>
-                
               </Text>
             </HStack>
-            <Button onClick={toggleColorMode} variant="ghost" _hover={{ variant: "ghost" }}>
+            <Button
+              onClick={toggleColorMode}
+              variant="ghost"
+              _hover={{ variant: "ghost" }}
+            >
               {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
             </Button>
           </Flex>
@@ -130,7 +133,7 @@ export default function Navbar() {
                 <a href="#contact">Contact</a>
               </Text>
               <Text>
-              <Button id="resume-button-1">
+                <Button id="resume-button-1">
                   <a
                     className="menu-btn nav-link resume"
                     id="resume-link-1"
@@ -147,7 +150,6 @@ export default function Navbar() {
       </Box>
 
       {/* Home section */}
-
 
       <Flex
         id="home"
@@ -249,7 +251,7 @@ export default function Navbar() {
       </Flex>
 
       {/* skills */}
-      
+
       <Box id="skills" w="80%" m="auto" mt={{ base: "20", md: "40" }}>
         <Text fontSize="30" fontWeight="600">
           Skills
@@ -261,7 +263,10 @@ export default function Navbar() {
           spacing="80px"
           mt="10"
         >
-          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
+          <Box
+            className="skillBox"
+            _hover={{ bg: useColorModeValue("gray.200", "gray.1000") }}
+          >
             <Image
               w="20"
               className="skills-card-img"
@@ -273,7 +278,10 @@ export default function Navbar() {
               HTML
             </Text>
           </Box>
-          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
+          <Box
+            className="skillBox"
+            _hover={{ bg: useColorModeValue("gray.200", "gray.1000") }}
+          >
             <Image
               w="20"
               className="skills-card-img"
@@ -286,7 +294,10 @@ export default function Navbar() {
             </Text>
           </Box>
 
-          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
+          <Box
+            className="skillBox"
+            _hover={{ bg: useColorModeValue("gray.200", "gray.1000") }}
+          >
             <Image
               w="20"
               className="skills-card-img"
@@ -298,7 +309,10 @@ export default function Navbar() {
               JavaScript
             </Text>
           </Box>
-          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
+          <Box
+            className="skillBox"
+            _hover={{ bg: useColorModeValue("gray.200", "gray.1000") }}
+          >
             <Image
               w="20"
               className="skills-card-img"
@@ -310,7 +324,10 @@ export default function Navbar() {
               React
             </Text>
           </Box>
-          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
+          <Box
+            className="skillBox"
+            _hover={{ bg: useColorModeValue("gray.200", "gray.1000") }}
+          >
             <Image
               w="20"
               className="skills-card-img"
@@ -322,7 +339,10 @@ export default function Navbar() {
               NodeJS
             </Text>
           </Box>
-          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
+          <Box
+            className="skillBox"
+            _hover={{ bg: useColorModeValue("gray.200", "gray.1000") }}
+          >
             <Image
               w="20"
               className="skills-card-img"
@@ -334,7 +354,10 @@ export default function Navbar() {
               Express
             </Text>
           </Box>
-          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
+          <Box
+            className="skillBox"
+            _hover={{ bg: useColorModeValue("gray.200", "gray.1000") }}
+          >
             <Image
               w="20"
               className="skills-card-img"
@@ -346,7 +369,10 @@ export default function Navbar() {
               Mongoose
             </Text>
           </Box>
-          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
+          <Box
+            className="skillBox"
+            _hover={{ bg: useColorModeValue("gray.200", "gray.1000") }}
+          >
             <Image
               w="20"
               className="skills-card-img"
@@ -358,7 +384,10 @@ export default function Navbar() {
               MongoDB
             </Text>
           </Box>
-          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
+          <Box
+            className="skillBox"
+            _hover={{ bg: useColorModeValue("gray.200", "gray.1000") }}
+          >
             <Image
               w="20"
               className="skills-card-img"
@@ -370,7 +399,10 @@ export default function Navbar() {
               AWS
             </Text>
           </Box>
-          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
+          <Box
+            className="skillBox"
+            _hover={{ bg: useColorModeValue("gray.200", "gray.1000") }}
+          >
             <Image
               w="20"
               className="skills-card-img"
@@ -382,7 +414,10 @@ export default function Navbar() {
               My SQL
             </Text>
           </Box>
-          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
+          <Box
+            className="skillBox"
+            _hover={{ bg: useColorModeValue("gray.200", "gray.1000") }}
+          >
             <Image
               w="20"
               className="skills-card-img"
@@ -394,7 +429,10 @@ export default function Navbar() {
               Chakra UI
             </Text>
           </Box>
-          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
+          <Box
+            className="skillBox"
+            _hover={{ bg: useColorModeValue("gray.200", "gray.1000") }}
+          >
             <Image
               w="20"
               className="skills-card-img"
@@ -406,7 +444,10 @@ export default function Navbar() {
               Bootstrap
             </Text>
           </Box>
-          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
+          <Box
+            className="skillBox"
+            _hover={{ bg: useColorModeValue("gray.200", "gray.1000") }}
+          >
             <Image
               w="20"
               className="skills-card-img"
@@ -418,7 +459,10 @@ export default function Navbar() {
               TypeScript
             </Text>
           </Box>
-          <Box className="skillBox" _hover={{ bg :useColorModeValue("gray.200", "gray.1000") }}>
+          <Box
+            className="skillBox"
+            _hover={{ bg: useColorModeValue("gray.200", "gray.1000") }}
+          >
             <Image
               w="20"
               className="skills-card-img"
@@ -430,10 +474,8 @@ export default function Navbar() {
               Redis
             </Text>
           </Box>
-          
         </SimpleGrid>
       </Box>
-      
 
       {/* projects */}
 
@@ -442,194 +484,36 @@ export default function Navbar() {
           My Projects
         </Text>
 
-        <SimpleGrid className="project" columns={[1, 1, null, 2]} spacing="80px" mt="5">
+        <SimpleGrid
+          className="project"
+          columns={[1, 1, null, 2]}
+          spacing="80px"
+          mt="5"
+        >
           {/* project 0 */}
 
-          <Box boxShadow={"rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"} borderRadius="lg" className="card project-card" bg={useColorModeValue("gray.100", "gray.900")} _hover={{ bg :useColorModeValue("gray.300", "gray.1400") }} >
-            <img src=""></img>
-
-            <Box className="change-photos">
-              <div className="change-photo">
-                <Image className="pro_img"
-                  borderTopRadius="lg"
-                  src='https://github.com/amolthakare/slack-clone/raw/master/highlights_img/we-1.png'
-                  alt=""
-                />
-              </div>
-              <div className="change-photo">
-                <Image className="pro_img"
-                  borderTopRadius="lg"
-                  src='https://github.com/amolthakare/slack-clone/raw/master/highlights_img/we-5.png'
-                  alt=""
-                />
-              </div>
-            </Box>
-
-
-            <Box p="5">
-              <Text className="text project-title" mt="5" fontSize="25px" fontWeight="600">
-                Slack Clone
-              </Text>
-
-              <Text className="project-description" mt="2">
-              'WeConnect' clone of Slack allows teams to organize their communication and work in a central location, making it easier to stay connected and collaborate effectively.
-              </Text>
-              <Flex
-                className="techStack project-tech-stack"
-                mt="4"
-                fontSize="15px"
-                color="#407bff"
-                flexFlow="wrap"
-                gap="5"
-                alignItems="center"
-              >
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">HTML</Text>{" "}
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">CSS</Text>{" "}
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">JavaScript</Text>{" "}
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">MongoDB</Text>{" "}
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">Socket.io</Text>{" "}
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">Redis</Text>{" "}
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">Express</Text>
-              </Flex>
-
-              <Flex className="repo-links" mt="3" alignItems="center" justifyContent="space-between">
-                <Box fontSize="25px" textAlign="center" >
-                  <a display="flex" className="project-github-link" href="https://github.com/amolthakare/slack-clone"><i className="fa-brands fa-github"></i><Text fontSize="12px" mt="-8px">See Code</Text>
-                  </a>
-                  
-                </Box>
-
-                <Box fontSize="25px" textAlign="center">
-                  <a className="project-deployed-link" href="https://singular-axolotl-96063b.netlify.app/"><i className="fa-solid fa-eye"></i><Text fontSize="12px" mt="-8px">See Live</Text></a>
-                </Box>
-              </Flex>
-            </Box>
-          </Box>
-
-          <Box boxShadow={"rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"} borderRadius="lg" className="card project-card" bg={useColorModeValue("gray.100", "gray.900")} _hover={{ bg :useColorModeValue("gray.300", "gray.1400") }} >
-            <img src=""></img>
-
-            <Box className="change-photos">
-              <div className="change-photo">
-                <Image className="pro_img"
-                  borderTopRadius="lg"
-                  src='https://user-images.githubusercontent.com/112674221/229420654-84b13fc6-0a57-4474-94a0-fdb7b936278c.png'
-                  alt=""
-                />
-              </div>
-              <div className="change-photo">
-                <Image className="pro_img"
-                  borderTopRadius="lg"
-                  src='https://user-images.githubusercontent.com/112674221/229420797-a23ee471-6dfb-4e43-b36d-eea25cc90c00.png'
-                  alt=""
-                />
-              </div>
-            </Box>
-
-
-            <Box p="5">
-              <Text className="text project-title" mt="5" fontSize="25px" fontWeight="600">
-                Tooth Tracker
-              </Text>
-
-              <Text className="project-description" mt="2">
-              Tooth Tracker is a dentist booking system that allows patients to schedule appointments with their dentist online, rather than having to call the dental office. The system typically provides a user-friendly interface that enables patients to choose the date and time of their appointment, select their preferred dentist, and enter their personal information.              </Text>
-              <Flex
-                className="techStack project-tech-stack"
-                mt="4"
-                fontSize="15px"
-                color="#407bff"
-                flexFlow="wrap"
-                gap="5"
-                alignItems="center"
-              >
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">HTML</Text>{" "}
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">CSS</Text>{" "}
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">JavaScript</Text>{" "}
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">MySql</Text>
-              </Flex>
-
-              <Flex className="repo-links" mt="3" alignItems="center" justifyContent="space-between">
-                <Box fontSize="25px" textAlign="center">
-                  <a className="project-github-link" href="https://github.com/amolthakare/Tooth-Tracker"><i className="fa-brands fa-github"></i><Text fontSize="12px" mt="-8px">See Code</Text></a>
-                </Box>
-
-                <Box fontSize="25px" textAlign="center">
-                  <a className="project-deployed-link"  href="https://tooth-tracker.netlify.app/"><i className="fa-solid fa-eye"></i><Text fontSize="12px" mt="-8px">See Live</Text></a>
-                </Box>
-              </Flex>
-            </Box>
-          </Box>
-
-          <Box boxShadow={"rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"} borderRadius="lg" className="card project-card" bg={useColorModeValue("gray.100", "gray.900")} _hover={{ bg :useColorModeValue("gray.300", "gray.1400") }} >
-            <img src=""></img>
-
-            <Box className="change-photos">
-              <div className="change-photo">
-                <Image className="pro_img"
-                  borderTopRadius="lg"
-                  src={mamaearth}
-                  alt=""
-                />
-              </div>
-              <div className="change-photo">
-                <Image className="pro_img"
-                  borderTopRadius="lg"
-                  src={mamaearth1}
-                  alt=""
-                />
-              </div>
-            </Box>
-
-
-            <Box p="5">
-              <Text className="text project-title" mt="5" fontSize="25px" fontWeight="600">
-                MamaEarth Clone
-              </Text>
-
-              <Text className="project-description" mt="2">
-                Mamaearth is one of the most trustworthy brands in India. It offers the best-in-class Natural & Toxin Free Skin Care Products to help you to discover the essence of beauty with the Goodness of Nature.
-              </Text>
-              <Flex
-                className="techStack project-tech-stack"
-                mt="4"
-                fontSize="15px"
-                color="#407bff"
-                flexFlow="wrap"
-                gap="5"
-                alignItems="center"
-              >
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">HTML</Text>{" "}
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">CSS</Text>{" "}
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">JavaScript</Text>
-              </Flex>
-
-              <Flex className="repo-links" mt="3" alignItems="center" justifyContent="space-between">
-                <Box fontSize="25px" textAlign="center">
-                  <a className="project-github-link" href="https://github.com/Arfeen98/MamaEarthclone"><i className="fa-brands fa-github"></i><Text fontSize="12px" mt="-8px">See Code</Text></a>
-                </Box>
-
-                <Box fontSize="25px" textAlign="center">
-                  <a className="project-deployed-link" href="https://calm-sawine-27b8ed.netlify.app/"><i className="fa-solid fa-eye"></i><Text fontSize="12px" mt="-8px">See Live</Text></a>
-                </Box>
-              </Flex>
-            </Box>
-          </Box>
-
-          {/* project 2 */}
-
-          <Box boxShadow={"rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"} borderRadius="lg" className="card project-card" bg={useColorModeValue("gray.100", "gray.900")} _hover={{ bg :useColorModeValue("gray.300", "gray.1400") }}>
+          <Box
+            boxShadow={
+              "rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"
+            }
+            borderRadius="lg"
+            className="card project-card"
+            bg={useColorModeValue("gray.100", "gray.900")}
+            _hover={{ bg: useColorModeValue("gray.300", "gray.1400") }}
+          >
             <img src=""></img>
             <Box className="change-photos">
               <div className="change-photo">
-                <Image className="pro_img"
+                <Image
+                  className="pro_img"
                   borderTopRadius="lg"
                   src={megamart}
                   alt=""
                 />
               </div>
               <div className="change-photo">
-                <Image className="pro_img"
+                <Image
+                  className="pro_img"
                   borderTopRadius="lg"
                   src={megamart1}
                   alt=""
@@ -637,15 +521,20 @@ export default function Navbar() {
               </div>
             </Box>
             <Box p="5">
-              <Text className="text project-title" mt="5" fontSize="25px" fontWeight="600">
+              <Text
+                className="text project-title"
+                mt="5"
+                fontSize="25px"
+                fontWeight="600"
+              >
                 CraftsVilla Clone
               </Text>
 
               <Text className="project-description" mt="2">
-              A web application where daily needs products are
-                available for purchase and there are different functionalties
-                available, here you can Filter all the products and this is a my
-                first individual project.
+                A web application where daily needs products are available for
+                purchase and there are different functionalties available, here
+                you can Filter all the products and this is a my first
+                individual project.
               </Text>
               <Flex
                 className="techStack project-tech-stack"
@@ -656,39 +545,443 @@ export default function Navbar() {
                 gap="5"
                 alignItems="center"
               >
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">HTML</Text>{" "}
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">CSS</Text>{" "}
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">JavaScript</Text>{" "}
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">NodeJS</Text>
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  HTML
+                </Text>{" "}
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  CSS
+                </Text>{" "}
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  JavaScript
+                </Text>{" "}
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  NodeJS
+                </Text>
               </Flex>
 
-              <Flex className="repo-links" mt="3" alignItems="center" justifyContent="space-between">
+              <Flex
+                className="repo-links"
+                mt="3"
+                alignItems="center"
+                justifyContent="space-between"
+              >
                 <Box fontSize="25px" textAlign="center">
-                  <a className="project-github-link" href="https://github.com/amolthakare/crooked-milk-1565"><i className="fa-brands fa-github"></i><Text fontSize="12px" mt="-8px">See Code</Text></a>
-                  
+                  <a
+                    className="project-github-link"
+                    href="https://github.com/amolthakare/crooked-milk-1565"
+                  >
+                    <i className="fa-brands fa-github"></i>
+                    <Text fontSize="12px" mt="-8px">
+                      See Code
+                    </Text>
+                  </a>
                 </Box>
 
                 <Box fontSize="25px" textAlign="center">
-                  <a className="project-deployed-link" href="https://splendorous-capybara-aeb198.netlify.app"><i className="fa-solid fa-eye"></i><Text fontSize="12px" mt="-8px">See Live</Text></a>
+                  <a
+                    className="project-deployed-link"
+                    href="https://splendorous-capybara-aeb198.netlify.app"
+                  >
+                    <i className="fa-solid fa-eye"></i>
+                    <Text fontSize="12px" mt="-8px">
+                      See Live
+                    </Text>
+                  </a>
                 </Box>
               </Flex>
             </Box>
           </Box>
 
-          {/* project 3 */}
+          <Box
+            boxShadow={
+              "rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"
+            }
+            borderRadius="lg"
+            className="card project-card"
+            bg={useColorModeValue("gray.100", "gray.900")}
+            _hover={{ bg: useColorModeValue("gray.300", "gray.1400") }}
+          >
+            <img src=""></img>
 
-          <Box boxShadow={"rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"} borderRadius="lg" className="card project-card" bg={useColorModeValue("gray.100", "gray.900")} _hover={{ bg :useColorModeValue("gray.300", "gray.1400") }} >
+            <Box className="change-photos">
+              <div className="change-photo">
+                <Image
+                  className="pro_img"
+                  borderTopRadius="lg"
+                  src={mamaearth}
+                  alt=""
+                />
+              </div>
+              <div className="change-photo">
+                <Image
+                  className="pro_img"
+                  borderTopRadius="lg"
+                  src={mamaearth1}
+                  alt=""
+                />
+              </div>
+            </Box>
+
+            <Box p="5">
+              <Text
+                className="text project-title"
+                mt="5"
+                fontSize="25px"
+                fontWeight="600"
+              >
+                MamaEarth Clone
+              </Text>
+
+              <Text className="project-description" mt="2">
+                Mamaearth is one of the most trustworthy brands in India. It
+                offers the best-in-class Natural & Toxin Free Skin Care Products
+                to help you to discover the essence of beauty with the Goodness
+                of Nature.
+              </Text>
+              <Flex
+                className="techStack project-tech-stack"
+                mt="4"
+                fontSize="15px"
+                color="#407bff"
+                flexFlow="wrap"
+                gap="5"
+                alignItems="center"
+              >
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  HTML
+                </Text>{" "}
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  CSS
+                </Text>{" "}
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  JavaScript
+                </Text>
+              </Flex>
+
+              <Flex
+                className="repo-links"
+                mt="3"
+                alignItems="center"
+                justifyContent="space-between"
+              >
+                <Box fontSize="25px" textAlign="center">
+                  <a
+                    className="project-github-link"
+                    href="https://github.com/Arfeen98/MamaEarthclone"
+                  >
+                    <i className="fa-brands fa-github"></i>
+                    <Text fontSize="12px" mt="-8px">
+                      See Code
+                    </Text>
+                  </a>
+                </Box>
+
+                <Box fontSize="25px" textAlign="center">
+                  <a
+                    className="project-deployed-link"
+                    href="https://calm-sawine-27b8ed.netlify.app/"
+                  >
+                    <i className="fa-solid fa-eye"></i>
+                    <Text fontSize="12px" mt="-8px">
+                      See Live
+                    </Text>
+                  </a>
+                </Box>
+              </Flex>
+            </Box>
+          </Box>
+
+          {/* <Box
+            boxShadow={
+              "rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"
+            }
+            borderRadius="lg"
+            className="card project-card"
+            bg={useColorModeValue("gray.100", "gray.900")}
+            _hover={{ bg: useColorModeValue("gray.300", "gray.1400") }}
+          >
+            <img src=""></img>
+
+            <Box className="change-photos">
+              <div className="change-photo">
+                <Image
+                  className="pro_img"
+                  borderTopRadius="lg"
+                  src="https://github.com/amolthakare/slack-clone/raw/master/highlights_img/we-1.png"
+                  alt=""
+                />
+              </div>
+              <div className="change-photo">
+                <Image
+                  className="pro_img"
+                  borderTopRadius="lg"
+                  src="https://github.com/amolthakare/slack-clone/raw/master/highlights_img/we-5.png"
+                  alt=""
+                />
+              </div>
+            </Box>
+
+            <Box p="5">
+              <Text
+                className="text project-title"
+                mt="5"
+                fontSize="25px"
+                fontWeight="600"
+              >
+                Slack Clone
+              </Text>
+
+              <Text className="project-description" mt="2">
+                'WeConnect' clone of Slack allows teams to organize their
+                communication and work in a central location, making it easier
+                to stay connected and collaborate effectively.
+              </Text>
+              <Flex
+                className="techStack project-tech-stack"
+                mt="4"
+                fontSize="15px"
+                color="#407bff"
+                flexFlow="wrap"
+                gap="5"
+                alignItems="center"
+              >
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  HTML
+                </Text>{" "}
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  CSS
+                </Text>{" "}
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  JavaScript
+                </Text>{" "}
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  MongoDB
+                </Text>{" "}
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  Socket.io
+                </Text>{" "}
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  Redis
+                </Text>{" "}
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  Express
+                </Text>
+              </Flex>
+
+              <Flex
+                className="repo-links"
+                mt="3"
+                alignItems="center"
+                justifyContent="space-between"
+              >
+                <Box fontSize="25px" textAlign="center">
+                  <a
+                    display="flex"
+                    className="project-github-link"
+                    href="https://github.com/amolthakare/slack-clone"
+                  >
+                    <i className="fa-brands fa-github"></i>
+                    <Text fontSize="12px" mt="-8px">
+                      See Code
+                    </Text>
+                  </a>
+                </Box>
+
+                <Box fontSize="25px" textAlign="center">
+                  <a
+                    className="project-deployed-link"
+                    href="https://singular-axolotl-96063b.netlify.app/"
+                  >
+                    <i className="fa-solid fa-eye"></i>
+                    <Text fontSize="12px" mt="-8px">
+                      See Live
+                    </Text>
+                  </a>
+                </Box>
+              </Flex>
+            </Box>
+          </Box> */}
+
+          <Box
+            boxShadow={
+              "rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"
+            }
+            borderRadius="lg"
+            className="card project-card"
+            bg={useColorModeValue("gray.100", "gray.900")}
+            _hover={{ bg: useColorModeValue("gray.300", "gray.1400") }}
+          >
+            <img src=""></img>
+
+            <Box className="change-photos">
+              <div className="change-photo">
+                <Image
+                  className="pro_img"
+                  borderTopRadius="lg"
+                  src="https://user-images.githubusercontent.com/112674221/229420654-84b13fc6-0a57-4474-94a0-fdb7b936278c.png"
+                  alt=""
+                />
+              </div>
+              <div className="change-photo">
+                <Image
+                  className="pro_img"
+                  borderTopRadius="lg"
+                  src="https://user-images.githubusercontent.com/112674221/229420797-a23ee471-6dfb-4e43-b36d-eea25cc90c00.png"
+                  alt=""
+                />
+              </div>
+            </Box>
+
+            <Box p="5">
+              <Text
+                className="text project-title"
+                mt="5"
+                fontSize="25px"
+                fontWeight="600"
+              >
+                Tooth Tracker
+              </Text>
+
+              <Text className="project-description" mt="2">
+                Tooth Tracker is a dentist booking system that allows patients
+                to schedule appointments with their dentist online, rather than
+                having to call the dental office. The system typically provides
+                a user-friendly interface that enables patients to choose the
+                date and time of their appointment, select their preferred
+                dentist, and enter their personal information.{" "}
+              </Text>
+              <Flex
+                className="techStack project-tech-stack"
+                mt="4"
+                fontSize="15px"
+                color="#407bff"
+                flexFlow="wrap"
+                gap="5"
+                alignItems="center"
+              >
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  HTML
+                </Text>{" "}
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  CSS
+                </Text>{" "}
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  JavaScript
+                </Text>{" "}
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  MySql
+                </Text>
+              </Flex>
+
+              <Flex
+                className="repo-links"
+                mt="3"
+                alignItems="center"
+                justifyContent="space-between"
+              >
+                <Box fontSize="25px" textAlign="center">
+                  <a
+                    className="project-github-link"
+                    href="https://github.com/amolthakare/Tooth-Tracker"
+                  >
+                    <i className="fa-brands fa-github"></i>
+                    <Text fontSize="12px" mt="-8px">
+                      See Code
+                    </Text>
+                  </a>
+                </Box>
+
+                <Box fontSize="25px" textAlign="center">
+                  <a
+                    className="project-deployed-link"
+                    href="https://tooth-tracker.netlify.app/"
+                  >
+                    <i className="fa-solid fa-eye"></i>
+                    <Text fontSize="12px" mt="-8px">
+                      See Live
+                    </Text>
+                  </a>
+                </Box>
+              </Flex>
+            </Box>
+          </Box>
+{/* 
+          <Box
+            boxShadow={
+              "rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"
+            }
+            borderRadius="lg"
+            className="card project-card"
+            bg={useColorModeValue("gray.100", "gray.900")}
+            _hover={{ bg: useColorModeValue("gray.300", "gray.1400") }}
+          >
             <img src=""></img>
             <Box className="change-photos">
               <div className="change-photo">
-                <Image className="pro_img"
+                <Image
+                  className="pro_img"
                   borderTopRadius="lg"
                   src={tralive}
                   alt=""
                 />
               </div>
               <div className="change-photo">
-                <Image className="pro_img"
+                <Image
+                  className="pro_img"
                   borderTopRadius="lg"
                   src={tralive1}
                   alt=""
@@ -696,12 +989,21 @@ export default function Navbar() {
               </div>
             </Box>
             <Box p="5">
-              <Text className="text project-title" mt="5" fontSize="25px" fontWeight="600">
+              <Text
+                className="text project-title"
+                mt="5"
+                fontSize="25px"
+                fontWeight="600"
+              >
                 Tripadvisor Clone
               </Text>
 
               <Text className="project-description" mt="2">
-                Tripadvisor, is the travel platform,helps travelers to make every trip their best trip.Whether planning or on a trip, travelers turn to Tripadvisor to compare low prices on hotels, flights and cruises, book popular tours and attractions, as well as reserve tables at great restaurants.
+                Tripadvisor, is the travel platform,helps travelers to make
+                every trip their best trip.Whether planning or on a trip,
+                travelers turn to Tripadvisor to compare low prices on hotels,
+                flights and cruises, book popular tours and attractions, as well
+                as reserve tables at great restaurants.
               </Text>
               <Flex
                 className="techStack project-tech-stack"
@@ -712,38 +1014,83 @@ export default function Navbar() {
                 gap="5"
                 alignItems="center"
               >
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">HTML</Text>{" "}
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">CSS</Text>{" "}
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">JavaScript</Text>
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  HTML
+                </Text>{" "}
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  CSS
+                </Text>{" "}
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  JavaScript
+                </Text>
               </Flex>
 
-              <Flex className="repo-links" mt="3" alignItems="center" justifyContent="space-between">
+              <Flex
+                className="repo-links"
+                mt="3"
+                alignItems="center"
+                justifyContent="space-between"
+              >
                 <Box fontSize="25px" textAlign="center">
-                  <a className="project-github-link" href="https://github.com/amolthakare/-thankful-distribution-751"><i className="fa-brands fa-github"></i><Text fontSize="12px" mt="-8px">See Code</Text></a>
-                  
+                  <a
+                    className="project-github-link"
+                    href="https://github.com/amolthakare/-thankful-distribution-751"
+                  >
+                    <i className="fa-brands fa-github"></i>
+                    <Text fontSize="12px" mt="-8px">
+                      See Code
+                    </Text>
+                  </a>
                 </Box>
 
                 <Box fontSize="25px" textAlign="center">
-                  <a className="project-deployed-link" href="https://nimble-profiterole-aaa205.netlify.app"><i className="fa-solid fa-eye"></i><Text fontSize="12px" mt="-8px">See Live</Text></a>
+                  <a
+                    className="project-deployed-link"
+                    href="https://nimble-profiterole-aaa205.netlify.app"
+                  >
+                    <i className="fa-solid fa-eye"></i>
+                    <Text fontSize="12px" mt="-8px">
+                      See Live
+                    </Text>
+                  </a>
                 </Box>
               </Flex>
             </Box>
-          </Box>
+          </Box> */}
 
           {/* project 4 */}
 
-          <Box boxShadow={"rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"} borderRadius="lg" className="card project-card" bg={useColorModeValue("gray.100", "gray.900")} _hover={{ bg :useColorModeValue("gray.300", "gray.1400") }}>
+          <Box
+            boxShadow={
+              "rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"
+            }
+            borderRadius="lg"
+            className="card project-card"
+            bg={useColorModeValue("gray.100", "gray.900")}
+            _hover={{ bg: useColorModeValue("gray.300", "gray.1400") }}
+          >
             <img src=""></img>
             <Box className="change-photos">
               <div className="change-photo">
-                <Image className="pro_img"
+                <Image
+                  className="pro_img"
                   borderTopRadius="lg"
                   src={clothingo}
                   alt=""
                 />
               </div>
               <div className="change-photo">
-                <Image className="pro_img"
+                <Image
+                  className="pro_img"
                   borderTopRadius="lg"
                   src={clothingo1}
                   alt=""
@@ -751,12 +1098,19 @@ export default function Navbar() {
               </div>
             </Box>
             <Box p="5">
-              <Text className="text project-title" mt="5" fontSize="25px" fontWeight="600">
+              <Text
+                className="text project-title"
+                mt="5"
+                fontSize="25px"
+                fontWeight="600"
+              >
                 Clothingo
               </Text>
 
               <Text className="project-description" mt="2">
-              THE FINEST EDIT IN LUXURY FASHION Clothingo is the finest edit in luxury fashion for women, men and kids. We have over 200 of the best international designers
+                THE FINEST EDIT IN LUXURY FASHION Clothingo is the finest edit
+                in luxury fashion for women, men and kids. We have over 200 of
+                the best international designers
               </Text>
               <Flex
                 className="techStack project-tech-stack"
@@ -767,19 +1121,54 @@ export default function Navbar() {
                 gap="5"
                 alignItems="center"
               >
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">HTML</Text>{" "}
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">CSS</Text>{" "}
-                <Text className="techStack project-tech-stack" fontFamily="Space Mono, monospace">JavaScript</Text>
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  HTML
+                </Text>{" "}
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  CSS
+                </Text>{" "}
+                <Text
+                  className="techStack project-tech-stack"
+                  fontFamily="Space Mono, monospace"
+                >
+                  JavaScript
+                </Text>
               </Flex>
 
-              <Flex className="repo-links" mt="3" alignItems="center" justifyContent="space-between">
+              <Flex
+                className="repo-links"
+                mt="3"
+                alignItems="center"
+                justifyContent="space-between"
+              >
                 <Box fontSize="25px" textAlign="center">
-                  <a className="project-github-link" href="https://github.com/hrithikvishwakarma001/complex-oranges-7381"><i className="fa-brands fa-github"></i><Text fontSize="12px" mt="-8px">See Code</Text></a>
-                  
+                  <a
+                    className="project-github-link"
+                    href="https://github.com/hrithikvishwakarma001/complex-oranges-7381"
+                  >
+                    <i className="fa-brands fa-github"></i>
+                    <Text fontSize="12px" mt="-8px">
+                      See Code
+                    </Text>
+                  </a>
                 </Box>
 
                 <Box fontSize="25px" textAlign="center">
-                  <a className="project-deployed-link" href="https://luxury-vacherin-56d222.netlify.app/"><i className="fa-solid fa-eye"></i><Text fontSize="12px" mt="-8px">See Live</Text></a>
+                  <a
+                    className="project-deployed-link"
+                    href="https://luxury-vacherin-56d222.netlify.app/"
+                  >
+                    <i className="fa-solid fa-eye"></i>
+                    <Text fontSize="12px" mt="-8px">
+                      See Live
+                    </Text>
+                  </a>
                 </Box>
               </Flex>
             </Box>
@@ -790,34 +1179,46 @@ export default function Navbar() {
       {/* github stats */}
 
       <Box w="80%" m="auto" mt="100px" textAlign="left">
-      <Text fontSize="30px" fontWeight="600">
+        <Text fontSize="30px" fontWeight="600">
           Github Stats
         </Text>
-      <GitHubCalendar
-        className="react-activity-calendar"
-        textAlign="left"
-        username="amolthakare"
-        color="rgb(49,130,206)"
-        blockSize={20}
-        blockMargin={10}
-      />
+        <GitHubCalendar
+          className="react-activity-calendar"
+          textAlign="left"
+          username="amolthakare"
+          color="rgb(49,130,206)"
+          blockSize={20}
+          blockMargin={10}
+        />
+        <SimpleGrid columns={[1, null, 2, 3]} spacing="40px" mt="10">
+          <Box>
+            <Image
+              id="github-stats-card"
+              src="https://github-readme-stats.vercel.app/api?username=amolthakare&theme=react&hide_border=false&include_all_commits=false&count_private=false"
+              alt=""
+            />
+          </Box>
 
-      <SimpleGrid columns={[1, null, 2, 3]} spacing="40px" mt="10">
-        <Box>
-          <Image id="github-stats-card"
-            src="https://github-readme-stats.vercel.app/api?username=amolthakare&theme=react&hide_border=false&include_all_commits=false&count_private=false" alt="" />
-        </Box>
+          <Box>
+            <Image
+              id="github-streak-stats"
+              src="https://github-readme-streak-stats.herokuapp.com/?user=amolthakare&theme=react&hide_border=false"
+              alt=""
+            />
+          </Box>
 
-        <Box>
-          <Image id="github-streak-stats"
-            src="https://github-readme-streak-stats.herokuapp.com/?user=amolthakare&theme=react&hide_border=false" alt="" />
-        </Box>
-
-        <Box>
-          <Image id="github-top-langs" height="100%" width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amolthakare&theme=react&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="" />
-        </Box>
-      </SimpleGrid>
-    </Box>
+          <Box>
+            <Image
+              id="github-top-langs"
+              height="100%"
+              width="100%"
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=amolthakare&theme=react&hide_border=false&include_all_commits=false&count_private=false&layout=compact"
+              alt=""
+            />
+          </Box>
+        </SimpleGrid>
+            
+      </Box>
 
       {/* contacts */}
       <Flex
@@ -854,7 +1255,14 @@ export default function Navbar() {
               bg="#0077b5"
               color="#f2f2f2"
             >
-              <Text id="contact-linkedin" fontSize={{ base: "14px", md: "16px" }}><a href="https://www.linkedin.com/in/amol-thakare-90469b237/">Linkedin</a></Text>
+              <Text
+                id="contact-linkedin"
+                fontSize={{ base: "14px", md: "16px" }}
+              >
+                <a href="https://www.linkedin.com/in/amol-thakare-90469b237/">
+                  Linkedin
+                </a>
+              </Text>
               <Box display={{ base: "none", md: "flex" }}>
                 <i className="fa-brands fa-linkedin-in"></i>
               </Box>
@@ -869,7 +1277,9 @@ export default function Navbar() {
               color="#f2f2f2"
               bg="#161b22"
             >
-              <Text id="contact-github" fontSize={{ base: "14px", md: "16px" }}><a href="https://github.com/amolthakare">Github</a></Text>
+              <Text id="contact-github" fontSize={{ base: "14px", md: "16px" }}>
+                <a href="https://github.com/amolthakare">Github</a>
+              </Text>
 
               <Box display={{ base: "none", md: "flex" }}>
                 <i className="fa-brands fa-github"></i>
@@ -884,11 +1294,14 @@ export default function Navbar() {
               borderRadius="md"
               bg="#00e361"
             >
-              <Text fontSize={{ base: "14px", md: "16px" }}><a href="https://www.hackerrank.com/amolthakare631">HackerRank</a></Text>
+              <Text fontSize={{ base: "14px", md: "16px" }}>
+                <a href="https://www.hackerrank.com/amolthakare631">
+                  HackerRank
+                </a>
+              </Text>
               <Box display={{ base: "none", md: "flex" }}>
                 <i className="fa-brands fa-hackerrank"></i>
               </Box>
-              
             </Flex>
           </Flex>
           <Box mt="8">
@@ -949,7 +1362,7 @@ export default function Navbar() {
           )}
           p="3"
         >
-          <Text fontSize="14px">2023, Made by Amol Thakare.</Text>
+          <Text fontSize="14px">2024, Made by Amol Thakare.</Text>
         </Box>
       </Box>
     </>
